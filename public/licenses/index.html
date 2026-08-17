@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lemera Open Source Licenses</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/legal.css">
+</head>
+<body>
+<main><nav><a href="/">Lemera Legal</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/licenses/">Licenses</a></nav>
+<h1>Open Source Licenses and Third-Party Notices</h1>
+<p class="meta"><strong>Version:</strong> 1.0<br>
+<strong>Effective date:</strong> August 17, 2026<br>
+<strong>App version:</strong> Lemera 1.0.0+1<br>
+<strong>Contact:</strong> <a href="mailto:lemera@meroviq.com">lemera@meroviq.com</a></p>
+<div class="notice">Lemera uses open source software and third-party components. This page publishes license information for Dart and Flutter packages resolved in the Lemera app lockfile (<code>apps/lemera/pubspec.lock</code>). Development-only packages (<code>flutter_lints</code>, <code>lints</code>) are omitted.</div>
+
+<h2>Access from the app</h2>
+<p>The Lemera app opens this public licenses page from <strong>Group manager → Information → Licenses</strong>. Lemera currently provides license notices through this public web page.</p>
+
+<h2>Framework and SDK components</h2>
+<table>
+  <thead><tr><th>Component</th><th>Version</th><th>License type</th><th>Source</th></tr></thead>
+  <tbody>
+    <tr><td>Flutter SDK</td><td>3.44.0 (constraint in lockfile)</td><td>BSD-3-Clause</td><td>Flutter SDK <code>LICENSE</code></td></tr>
+    <tr><td>Dart SDK</td><td>3.12.0 (constraint in lockfile)</td><td>BSD-3-Clause</td><td>Included with Flutter SDK</td></tr>
+  </tbody>
+</table>
+
+<h2>Direct Dart/Flutter dependencies</h2>
+<p>Declared in <code>apps/lemera/pubspec.yaml</code>; resolved versions from <code>pubspec.lock</code>. License type read from each package <code>LICENSE</code> file in the pub cache.</p>
+<table><thead><tr><th>Package</th><th>Version</th><th>License type</th></tr></thead><tbody>
+<tr><td>camera</td><td>0.12.0+2</td><td>BSD-3-Clause</td></tr>
+<tr><td>intl</td><td>0.20.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>mobile_scanner</td><td>7.4.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>permission_handler</td><td>11.4.0</td><td>MIT</td></tr>
+<tr><td>qr_flutter</td><td>4.1.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>share_plus</td><td>11.1.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences</td><td>2.5.5</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher</td><td>6.3.2</td><td>BSD-3-Clause</td></tr>
+</tbody></table>
+
+<h2>Transitive Dart/Flutter dependencies</h2>
+<p>Additional packages pulled in by the direct dependencies above (78 packages), excluding Flutter SDK packages.</p>
+<table><thead><tr><th>Package</th><th>Version</th><th>License type</th></tr></thead><tbody>
+<tr><td>args</td><td>2.7.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>async</td><td>2.13.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>boolean_selector</td><td>2.1.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>camera_android_camerax</td><td>0.7.4+4</td><td>BSD-3-Clause</td></tr>
+<tr><td>camera_avfoundation</td><td>0.10.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>camera_platform_interface</td><td>2.13.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>camera_web</td><td>0.3.5+5</td><td>BSD-3-Clause</td></tr>
+<tr><td>characters</td><td>1.4.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>clock</td><td>1.1.2</td><td>Apache-2.0</td></tr>
+<tr><td>code_assets</td><td>1.2.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>collection</td><td>1.19.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>cross_file</td><td>0.3.5+4</td><td>BSD-3-Clause</td></tr>
+<tr><td>crypto</td><td>3.0.7</td><td>BSD-3-Clause</td></tr>
+<tr><td>fake_async</td><td>1.3.3</td><td>Apache-2.0</td></tr>
+<tr><td>ffi</td><td>2.2.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>file</td><td>7.0.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>fixnum</td><td>1.1.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>flutter_plugin_android_lifecycle</td><td>2.0.35</td><td>BSD-3-Clause</td></tr>
+<tr><td>hooks</td><td>2.0.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>jni</td><td>1.0.3</td><td>BSD-3-Clause</td></tr>
+<tr><td>jni_flutter</td><td>1.0.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>jni_util</td><td>1.0.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>leak_tracker</td><td>11.0.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>leak_tracker_flutter_testing</td><td>3.0.10</td><td>BSD-3-Clause</td></tr>
+<tr><td>leak_tracker_testing</td><td>3.0.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>logging</td><td>1.3.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>matcher</td><td>0.12.19</td><td>BSD-3-Clause</td></tr>
+<tr><td>material_color_utilities</td><td>0.13.0</td><td>Apache-2.0</td></tr>
+<tr><td>meta</td><td>1.18.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>mime</td><td>2.0.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>objective_c</td><td>9.5.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>package_config</td><td>3.0.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>path</td><td>1.9.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider</td><td>2.1.6</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider_android</td><td>2.3.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider_foundation</td><td>2.6.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider_linux</td><td>2.2.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider_platform_interface</td><td>2.1.3</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider_windows</td><td>2.3.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>permission_handler_android</td><td>12.1.0</td><td>MIT</td></tr>
+<tr><td>permission_handler_apple</td><td>9.5.0</td><td>MIT</td></tr>
+<tr><td>permission_handler_html</td><td>0.1.4+1</td><td>MIT</td></tr>
+<tr><td>permission_handler_platform_interface</td><td>4.4.0</td><td>MIT</td></tr>
+<tr><td>permission_handler_windows</td><td>0.2.2</td><td>MIT</td></tr>
+<tr><td>platform</td><td>3.1.6</td><td>BSD-3-Clause</td></tr>
+<tr><td>plugin_platform_interface</td><td>2.1.8</td><td>BSD-3-Clause</td></tr>
+<tr><td>pub_semver</td><td>2.2.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>qr</td><td>3.0.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>record_use</td><td>0.6.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>share_plus_platform_interface</td><td>6.1.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_android</td><td>2.4.27</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_foundation</td><td>2.5.6</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_linux</td><td>2.4.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_platform_interface</td><td>2.4.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_web</td><td>2.4.3</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_windows</td><td>2.4.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>source_span</td><td>1.10.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>stack_trace</td><td>1.12.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>stream_channel</td><td>2.1.4</td><td>BSD-3-Clause</td></tr>
+<tr><td>stream_transform</td><td>2.1.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>string_scanner</td><td>1.4.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>term_glyph</td><td>1.2.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>test_api</td><td>0.7.11</td><td>BSD-3-Clause</td></tr>
+<tr><td>typed_data</td><td>1.4.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_android</td><td>6.3.32</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_ios</td><td>6.4.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_linux</td><td>3.2.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_macos</td><td>3.2.5</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_platform_interface</td><td>2.3.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_web</td><td>2.4.3</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_windows</td><td>3.1.5</td><td>BSD-3-Clause</td></tr>
+<tr><td>uuid</td><td>4.6.0</td><td>MIT</td></tr>
+<tr><td>vector_math</td><td>2.2.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>vm_service</td><td>15.2.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>web</td><td>1.1.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>win32</td><td>5.15.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>xdg_directories</td><td>1.1.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>yaml</td><td>3.1.3</td><td>MIT</td></tr>
+</tbody></table>
+
+<h2>License type summary (Dart/Flutter packages in the release lockfile, excluding dev-only)</h2>
+<table><thead><tr><th>License type</th><th>Package count</th></tr></thead><tbody>
+<tr><td>Apache-2.0</td><td>3</td></tr><tr><td>BSD-3-Clause</td><td>75</td></tr><tr><td>MIT</td><td>8</td></tr>
+</tbody></table>
+
+<h2>Native platform components</h2>
+<p>Lemera Android/iOS builds also bundle native libraries through Gradle and CocoaPods (for example CameraX via <code>camera</code>, scanner native code via <code>mobile_scanner</code>, and AndroidX). Those components are <strong>not</strong> enumerated in <code>pubspec.lock</code>.</p>
+<p><strong>Needs verification:</strong> a complete native third-party license list should be generated from a release build artifact (for example Android merged <code>NOTICES</code>) before final store submission.</p>
+
+<h2>Needs verification</h2>
+<ul>
+<li>Native Android/iOS SDK inventory and license texts for the exact Lemera release APK/IPA.</li>
+<li>Any license type above if an upstream package changes its <code>LICENSE</code> file in a future lockfile revision.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>If you believe a license notice is missing or inaccurate, contact <a href="mailto:lemera@meroviq.com">lemera@meroviq.com</a>.</p>
+
+<hr>
+
+<h1>오픈소스 라이선스 및 제3자 고지</h1>
+<p class="meta"><strong>버전:</strong> 1.0<br>
+<strong>시행일:</strong> 2026년 8월 17일<br>
+<strong>앱 버전:</strong> Lemera 1.0.0+1<br>
+<strong>문의:</strong> <a href="mailto:lemera@meroviq.com">lemera@meroviq.com</a></p>
+<div class="notice">Lemera는 오픈소스 소프트웨어 및 제3자 구성요소를 사용합니다. 이 페이지는 Lemera 앱 lockfile(<code>apps/lemera/pubspec.lock</code>)에 해석된 Dart/Flutter 패키지 라이선스 정보를 게시합니다. 개발 전용 패키지(<code>flutter_lints</code>, <code>lints</code>)는 제외합니다.</div>
+
+<h2>앱에서 접근</h2>
+<p>Lemera 앱의 <strong>그룹 관리 → 정보 → 라이선스</strong>에서 이 공개 라이선스 페이지를 엽니다. 현재 앱 내부 LicensePage가 아닌 이 웹 페이지로 고지합니다.</p>
+
+<h2>프레임워크 및 SDK</h2>
+<table>
+  <thead><tr><th>구성요소</th><th>버전</th><th>라이선스 유형</th><th>출처</th></tr></thead>
+  <tbody>
+    <tr><td>Flutter SDK</td><td>3.44.0 (lockfile 제약)</td><td>BSD-3-Clause</td><td>Flutter SDK <code>LICENSE</code></td></tr>
+    <tr><td>Dart SDK</td><td>3.12.0 (lockfile 제약)</td><td>BSD-3-Clause</td><td>Flutter SDK에 포함</td></tr>
+  </tbody>
+</table>
+
+<h2>직접 Dart/Flutter 의존성</h2>
+<p><code>apps/lemera/pubspec.yaml</code>에 선언되었고, 버전은 <code>pubspec.lock</code>, 라이선스 유형은 pub cache의 각 <code>LICENSE</code> 파일입니다.</p>
+<table><thead><tr><th>패키지</th><th>버전</th><th>라이선스 유형</th></tr></thead><tbody>
+<tr><td>camera</td><td>0.12.0+2</td><td>BSD-3-Clause</td></tr>
+<tr><td>intl</td><td>0.20.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>mobile_scanner</td><td>7.4.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>permission_handler</td><td>11.4.0</td><td>MIT</td></tr>
+<tr><td>qr_flutter</td><td>4.1.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>share_plus</td><td>11.1.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences</td><td>2.5.5</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher</td><td>6.3.2</td><td>BSD-3-Clause</td></tr>
+</tbody></table>
+
+<h2>전이(transitive) Dart/Flutter 의존성</h2>
+<p>위 직접 의존성을 통해 포함되는 추가 패키지(78개)입니다. Flutter SDK 패키지는 제외합니다.</p>
+<table><thead><tr><th>패키지</th><th>버전</th><th>라이선스 유형</th></tr></thead><tbody>
+<tr><td>args</td><td>2.7.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>async</td><td>2.13.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>boolean_selector</td><td>2.1.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>camera_android_camerax</td><td>0.7.4+4</td><td>BSD-3-Clause</td></tr>
+<tr><td>camera_avfoundation</td><td>0.10.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>camera_platform_interface</td><td>2.13.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>camera_web</td><td>0.3.5+5</td><td>BSD-3-Clause</td></tr>
+<tr><td>characters</td><td>1.4.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>clock</td><td>1.1.2</td><td>Apache-2.0</td></tr>
+<tr><td>code_assets</td><td>1.2.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>collection</td><td>1.19.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>cross_file</td><td>0.3.5+4</td><td>BSD-3-Clause</td></tr>
+<tr><td>crypto</td><td>3.0.7</td><td>BSD-3-Clause</td></tr>
+<tr><td>fake_async</td><td>1.3.3</td><td>Apache-2.0</td></tr>
+<tr><td>ffi</td><td>2.2.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>file</td><td>7.0.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>fixnum</td><td>1.1.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>flutter_plugin_android_lifecycle</td><td>2.0.35</td><td>BSD-3-Clause</td></tr>
+<tr><td>hooks</td><td>2.0.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>jni</td><td>1.0.3</td><td>BSD-3-Clause</td></tr>
+<tr><td>jni_flutter</td><td>1.0.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>jni_util</td><td>1.0.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>leak_tracker</td><td>11.0.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>leak_tracker_flutter_testing</td><td>3.0.10</td><td>BSD-3-Clause</td></tr>
+<tr><td>leak_tracker_testing</td><td>3.0.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>logging</td><td>1.3.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>matcher</td><td>0.12.19</td><td>BSD-3-Clause</td></tr>
+<tr><td>material_color_utilities</td><td>0.13.0</td><td>Apache-2.0</td></tr>
+<tr><td>meta</td><td>1.18.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>mime</td><td>2.0.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>objective_c</td><td>9.5.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>package_config</td><td>3.0.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>path</td><td>1.9.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider</td><td>2.1.6</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider_android</td><td>2.3.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider_foundation</td><td>2.6.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider_linux</td><td>2.2.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider_platform_interface</td><td>2.1.3</td><td>BSD-3-Clause</td></tr>
+<tr><td>path_provider_windows</td><td>2.3.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>permission_handler_android</td><td>12.1.0</td><td>MIT</td></tr>
+<tr><td>permission_handler_apple</td><td>9.5.0</td><td>MIT</td></tr>
+<tr><td>permission_handler_html</td><td>0.1.4+1</td><td>MIT</td></tr>
+<tr><td>permission_handler_platform_interface</td><td>4.4.0</td><td>MIT</td></tr>
+<tr><td>permission_handler_windows</td><td>0.2.2</td><td>MIT</td></tr>
+<tr><td>platform</td><td>3.1.6</td><td>BSD-3-Clause</td></tr>
+<tr><td>plugin_platform_interface</td><td>2.1.8</td><td>BSD-3-Clause</td></tr>
+<tr><td>pub_semver</td><td>2.2.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>qr</td><td>3.0.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>record_use</td><td>0.6.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>share_plus_platform_interface</td><td>6.1.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_android</td><td>2.4.27</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_foundation</td><td>2.5.6</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_linux</td><td>2.4.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_platform_interface</td><td>2.4.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_web</td><td>2.4.3</td><td>BSD-3-Clause</td></tr>
+<tr><td>shared_preferences_windows</td><td>2.4.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>source_span</td><td>1.10.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>stack_trace</td><td>1.12.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>stream_channel</td><td>2.1.4</td><td>BSD-3-Clause</td></tr>
+<tr><td>stream_transform</td><td>2.1.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>string_scanner</td><td>1.4.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>term_glyph</td><td>1.2.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>test_api</td><td>0.7.11</td><td>BSD-3-Clause</td></tr>
+<tr><td>typed_data</td><td>1.4.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_android</td><td>6.3.32</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_ios</td><td>6.4.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_linux</td><td>3.2.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_macos</td><td>3.2.5</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_platform_interface</td><td>2.3.2</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_web</td><td>2.4.3</td><td>BSD-3-Clause</td></tr>
+<tr><td>url_launcher_windows</td><td>3.1.5</td><td>BSD-3-Clause</td></tr>
+<tr><td>uuid</td><td>4.6.0</td><td>MIT</td></tr>
+<tr><td>vector_math</td><td>2.2.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>vm_service</td><td>15.2.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>web</td><td>1.1.1</td><td>BSD-3-Clause</td></tr>
+<tr><td>win32</td><td>5.15.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>xdg_directories</td><td>1.1.0</td><td>BSD-3-Clause</td></tr>
+<tr><td>yaml</td><td>3.1.3</td><td>MIT</td></tr>
+</tbody></table>
+
+<h2>라이선스 유형 요약 (릴리스 lockfile, 개발 전용 제외)</h2>
+<table><thead><tr><th>라이선스 유형</th><th>패키지 수</th></tr></thead><tbody>
+<tr><td>Apache-2.0</td><td>3</td></tr><tr><td>BSD-3-Clause</td><td>75</td></tr><tr><td>MIT</td><td>8</td></tr>
+</tbody></table>
+
+<h2>네이티브 플랫폼 구성요소</h2>
+<p>Lemera Android/iOS 빌드에는 Gradle/CocoaPods를 통한 네이티브 라이브러리(예: <code>camera</code>의 CameraX, <code>mobile_scanner</code> 네이티브 코드, AndroidX)도 포함됩니다. 이들은 <code>pubspec.lock</code>에 나열되지 않습니다.</p>
+<p><strong>Needs verification:</strong> 최종 스토어 제출 전 릴리스 산출물(예: Android 병합 <code>NOTICES</code>)에서 네이티브 제3자 라이선스 전체 목록을 생성·검증해야 합니다.</p>
+
+<h2>Needs verification</h2>
+<ul>
+<li>Lemera 릴리스 APK/IPA의 네이티브 Android/iOS SDK 목록 및 라이선스 전문.</li>
+<li>향후 lockfile 변경으로 upstream <code>LICENSE</code>가 바뀌는 경우 해당 패키지 유형.</li>
+</ul>
+
+<h2>문의</h2>
+<p>누락되거나 부정확한 고지가 있으면 <a href="mailto:lemera@meroviq.com">lemera@meroviq.com</a>로 연락해 주세요.</p>
+<footer><p><a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms of Service</a> · <a href="/licenses/">Open Source Licenses</a></p></footer>
+</main>
+</body>
+</html>
