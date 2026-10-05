@@ -10,7 +10,7 @@ Primary URLs:
 - Privacy Policy: https://lemera.meroviq.com/privacy
 - Open Source Licenses: https://lemera.meroviq.com/licenses
 
-Current privacy document version: 1.1
-Privacy effective date: October 1, 2026
+Current privacy document version: 1.2
+Privacy effective date: October 5, 2026
 
 Contact: lemera@meroviq.com
