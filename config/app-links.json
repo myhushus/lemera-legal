@@ -1,0 +1,8 @@
+{
+  "androidPackage": "com.meroviq.lemera",
+  "playAppSigningSha256": [
+    "A3:73:EC:05:BA:F6:77:C0:8D:AB:B6:F6:24:76:0A:4E:EC:15:BC:88:1C:7F:F7:2E:A2:3E:DF:C1:D5:3C:45:CB"
+  ],
+  "iosAppId": "R6FXDSF43S.com.meroviq.lemera",
+  "iosUniversalLinksEnabled": false
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Join a group — Lemera</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="Install Lemera to join a local photo-sharing group.">
+  <link rel="stylesheet" href="/assets/legal.css">
+  <style>
+    main { overflow-wrap: anywhere; padding-left: max(20px, env(safe-area-inset-left)); padding-right: max(20px, env(safe-area-inset-right)); padding-bottom: max(40px, env(safe-area-inset-bottom)); }
+    #language { font: inherit; color: var(--fg); background: var(--card); border: 1px solid var(--border); border-radius: 999px; padding: 6px 14px; min-height: 44px; max-width: 100%; }
+    .join-card { max-width: 36rem; margin: 48px auto 0; padding: clamp(20px, 5vw, 36px); border: 1px solid var(--border); border-radius: 24px; background: var(--card); overflow-wrap: anywhere; }
+    .join-card h1 { word-break: keep-all; font-size: 2rem; }
+    .join-card p { margin: 16px 0; }
+    .stores { display: flex; flex-wrap: wrap; gap: 16px; margin: 28px 0; }
+    .store { flex: 1 1 10rem; min-width: 0; min-height: 48px; padding: 14px 20px; border: 1px solid var(--border); border-radius: 16px; background: var(--bg); color: var(--fg); font-weight: 600; text-decoration: none; }
+    .store small { display: block; color: var(--muted); font-weight: 400; }
+    .store.recommended { border: 2px solid var(--link); padding: 13px 19px; }
+    .store:focus-visible { outline: 3px solid var(--link); outline-offset: 4px; }
+    .meta { font-size: .95rem; }
+  </style>
+  <script defer src="/download/config.js"></script>
+  <script defer src="/join/config.js"></script>
+  <script defer src="/join/join.js"></script>
+</head>
+<body>
+<main>
+  <nav><a id="brand" href="/">Lemera</a><a id="privacy" href="/privacy/">Privacy</a><a id="terms" href="/terms/">Terms</a><button id="language" type="button">한국어</button></nav>
+  <section class="join-card" aria-labelledby="join-title">
+    <h1 id="join-title">Join a Lemera group</h1>
+    <p id="join-lead">Install Lemera on your iPhone or Android device to join this group.</p>
+    <div class="stores">
+      <a class="store" id="play" href="https://play.google.com/store/apps/details?id=com.meroviq.lemera" rel="noopener noreferrer" referrerpolicy="no-referrer">Google Play</a>
+      <a class="store" id="apple" role="link" aria-disabled="true">App Store<small id="soon">Coming Soon</small></a>
+    </div>
+    <p id="join-note" class="meta">After installing, scan the Host’s QR code again in the app. If Lemera is already installed, open its scanner.</p>
+  </section>
+  <footer><a href="mailto:lemera@meroviq.com" rel="noreferrer">lemera@meroviq.com</a></footer>
+</main>
+</body>
+</html>
