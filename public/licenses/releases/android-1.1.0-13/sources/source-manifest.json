@@ -1,0 +1,37 @@
+{
+  "revision": "98116461144f4429ab873f8497023a5ec3b08127",
+  "archive": "dart-98116461144f-fallback-root-certificates.zip",
+  "sha256": "b1661e94466503a7d97f6864359b06fc6ac69ee84dd342506d9606261698767f",
+  "files": [
+    {
+      "name": "BUILD.gn",
+      "sha256": "ea292011eb558d2c42bec9350380888b162d60a8f0b0d5abc04ec9acccab8d8d",
+      "url": "https://raw.githubusercontent.com/dart-lang/sdk/98116461144f4429ab873f8497023a5ec3b08127/third_party/fallback_root_certificates/BUILD.gn"
+    },
+    {
+      "name": "LICENSE",
+      "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85",
+      "url": "https://raw.githubusercontent.com/dart-lang/sdk/98116461144f4429ab873f8497023a5ec3b08127/third_party/fallback_root_certificates/LICENSE"
+    },
+    {
+      "name": "README.google",
+      "sha256": "9dafa2046a405bea6b56d207ce3696cd7fbbf4830c96117fb40f65d8626a3753",
+      "url": "https://raw.githubusercontent.com/dart-lang/sdk/98116461144f4429ab873f8497023a5ec3b08127/third_party/fallback_root_certificates/README.google"
+    },
+    {
+      "name": "certdata.pem",
+      "sha256": "9d785f392d2ed607ff4160e074e25848b98006deabc1b8c91a3d8b5c0a528c5a",
+      "url": "https://raw.githubusercontent.com/dart-lang/sdk/98116461144f4429ab873f8497023a5ec3b08127/third_party/fallback_root_certificates/certdata.pem"
+    },
+    {
+      "name": "certdata.txt",
+      "sha256": "c99d6d3f8d3d4e47719ba2b648992f5b58b150128d3aca3c05c566d8dc98e116",
+      "url": "https://raw.githubusercontent.com/dart-lang/sdk/98116461144f4429ab873f8497023a5ec3b08127/third_party/fallback_root_certificates/certdata.txt"
+    },
+    {
+      "name": "root_certificates.cc",
+      "sha256": "59c2dd7ff050b70efdf74fa0976e17b364d447e255930cf6baf0ff927ab995db",
+      "url": "https://raw.githubusercontent.com/dart-lang/sdk/98116461144f4429ab873f8497023a5ec3b08127/third_party/fallback_root_certificates/root_certificates.cc"
+    }
+  ]
+}

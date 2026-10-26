@@ -1,0 +1,605 @@
+[
+  {
+    "route": "/privacy/ko/v1.4/ko.html",
+    "width": 320,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/privacy/ko/v1.4/ko-eea-uk.html",
+    "width": 320,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/privacy/ko/v1.4/ko-us-ca.html",
+    "width": 320,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/terms/ko/v1.2/",
+    "width": 320,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 이용약관"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/ko/",
+    "width": 320,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "오픈소스 라이선스 — Android 1.1.0(13)"
+  },
+  {
+    "route": "/join/?lang=ko",
+    "width": 320,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 그룹에 참가하기"
+  },
+  {
+    "route": "/download/?lang=ko",
+    "width": 320,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 다운로드"
+  },
+  {
+    "route": "/privacy/ko/v1.4/ko.html",
+    "width": 390,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/privacy/ko/v1.4/ko-eea-uk.html",
+    "width": 390,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/privacy/ko/v1.4/ko-us-ca.html",
+    "width": 390,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/terms/ko/v1.2/",
+    "width": 390,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 이용약관"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/ko/",
+    "width": 390,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "오픈소스 라이선스 — Android 1.1.0(13)"
+  },
+  {
+    "route": "/join/?lang=ko",
+    "width": 390,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 그룹에 참가하기"
+  },
+  {
+    "route": "/download/?lang=ko",
+    "width": 390,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 다운로드"
+  },
+  {
+    "route": "/privacy/ko/v1.4/ko.html",
+    "width": 768,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/privacy/ko/v1.4/ko-eea-uk.html",
+    "width": 768,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/privacy/ko/v1.4/ko-us-ca.html",
+    "width": 768,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/terms/ko/v1.2/",
+    "width": 768,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 이용약관"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/ko/",
+    "width": 768,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "오픈소스 라이선스 — Android 1.1.0(13)"
+  },
+  {
+    "route": "/join/?lang=ko",
+    "width": 768,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 그룹에 참가하기"
+  },
+  {
+    "route": "/download/?lang=ko",
+    "width": 768,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 다운로드"
+  },
+  {
+    "route": "/privacy/ko/v1.4/ko.html",
+    "width": 1280,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/privacy/ko/v1.4/ko-eea-uk.html",
+    "width": 1280,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/privacy/ko/v1.4/ko-us-ca.html",
+    "width": 1280,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 개인정보처리방침"
+  },
+  {
+    "route": "/terms/ko/v1.2/",
+    "width": 1280,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 이용약관"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/ko/",
+    "width": 1280,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "오픈소스 라이선스 — Android 1.1.0(13)"
+  },
+  {
+    "route": "/join/?lang=ko",
+    "width": 1280,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 그룹에 참가하기"
+  },
+  {
+    "route": "/download/?lang=ko",
+    "width": 1280,
+    "lang": "ko",
+    "overflow": false,
+    "h1": "공카 다운로드"
+  },
+  {
+    "route": "/privacy/en/v1.4/en.html",
+    "width": 320,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/privacy/en/v1.4/en-eea-uk.html",
+    "width": 320,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/privacy/en/v1.4/en-us-ca.html",
+    "width": 320,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/terms/en/v1.2/",
+    "width": 320,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Terms of Service"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/en/",
+    "width": 320,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Open source licenses — Android 1.1.0 (13)"
+  },
+  {
+    "route": "/join/?lang=en",
+    "width": 320,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Join a Lemera group"
+  },
+  {
+    "route": "/download/?lang=en",
+    "width": 320,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Get Lemera"
+  },
+  {
+    "route": "/privacy/en/v1.4/en.html",
+    "width": 390,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/privacy/en/v1.4/en-eea-uk.html",
+    "width": 390,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/privacy/en/v1.4/en-us-ca.html",
+    "width": 390,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/terms/en/v1.2/",
+    "width": 390,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Terms of Service"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/en/",
+    "width": 390,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Open source licenses — Android 1.1.0 (13)"
+  },
+  {
+    "route": "/join/?lang=en",
+    "width": 390,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Join a Lemera group"
+  },
+  {
+    "route": "/download/?lang=en",
+    "width": 390,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Get Lemera"
+  },
+  {
+    "route": "/privacy/en/v1.4/en.html",
+    "width": 768,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/privacy/en/v1.4/en-eea-uk.html",
+    "width": 768,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/privacy/en/v1.4/en-us-ca.html",
+    "width": 768,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/terms/en/v1.2/",
+    "width": 768,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Terms of Service"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/en/",
+    "width": 768,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Open source licenses — Android 1.1.0 (13)"
+  },
+  {
+    "route": "/join/?lang=en",
+    "width": 768,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Join a Lemera group"
+  },
+  {
+    "route": "/download/?lang=en",
+    "width": 768,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Get Lemera"
+  },
+  {
+    "route": "/privacy/en/v1.4/en.html",
+    "width": 1280,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/privacy/en/v1.4/en-eea-uk.html",
+    "width": 1280,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/privacy/en/v1.4/en-us-ca.html",
+    "width": 1280,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Privacy Policy"
+  },
+  {
+    "route": "/terms/en/v1.2/",
+    "width": 1280,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Lemera Terms of Service"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/en/",
+    "width": 1280,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Open source licenses — Android 1.1.0 (13)"
+  },
+  {
+    "route": "/join/?lang=en",
+    "width": 1280,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Join a Lemera group"
+  },
+  {
+    "route": "/download/?lang=en",
+    "width": 1280,
+    "lang": "en",
+    "overflow": false,
+    "h1": "Get Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es.html",
+    "width": 320,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es-eea-uk.html",
+    "width": 320,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es-us-ca.html",
+    "width": 320,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/terms/es/v1.2/",
+    "width": 320,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Términos del servicio de Lemera"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/es/",
+    "width": 320,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Licencias de código abierto — Android 1.1.0 (13)"
+  },
+  {
+    "route": "/join/?lang=es",
+    "width": 320,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Únete a un grupo de Lemera"
+  },
+  {
+    "route": "/download/?lang=es",
+    "width": 320,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Descargar Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es.html",
+    "width": 390,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es-eea-uk.html",
+    "width": 390,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es-us-ca.html",
+    "width": 390,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/terms/es/v1.2/",
+    "width": 390,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Términos del servicio de Lemera"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/es/",
+    "width": 390,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Licencias de código abierto — Android 1.1.0 (13)"
+  },
+  {
+    "route": "/join/?lang=es",
+    "width": 390,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Únete a un grupo de Lemera"
+  },
+  {
+    "route": "/download/?lang=es",
+    "width": 390,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Descargar Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es.html",
+    "width": 768,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es-eea-uk.html",
+    "width": 768,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es-us-ca.html",
+    "width": 768,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/terms/es/v1.2/",
+    "width": 768,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Términos del servicio de Lemera"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/es/",
+    "width": 768,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Licencias de código abierto — Android 1.1.0 (13)"
+  },
+  {
+    "route": "/join/?lang=es",
+    "width": 768,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Únete a un grupo de Lemera"
+  },
+  {
+    "route": "/download/?lang=es",
+    "width": 768,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Descargar Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es.html",
+    "width": 1280,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es-eea-uk.html",
+    "width": 1280,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/privacy/es/v1.4/es-us-ca.html",
+    "width": 1280,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Política de privacidad de Lemera"
+  },
+  {
+    "route": "/terms/es/v1.2/",
+    "width": 1280,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Términos del servicio de Lemera"
+  },
+  {
+    "route": "/licenses/releases/android-1.1.0-13/es/",
+    "width": 1280,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Licencias de código abierto — Android 1.1.0 (13)"
+  },
+  {
+    "route": "/join/?lang=es",
+    "width": 1280,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Únete a un grupo de Lemera"
+  },
+  {
+    "route": "/download/?lang=es",
+    "width": 1280,
+    "lang": "es",
+    "overflow": false,
+    "h1": "Descargar Lemera"
+  },
+  {
+    "largeText": true,
+    "lang": "ko",
+    "overflow": false
+  },
+  {
+    "largeText": true,
+    "lang": "en",
+    "overflow": false
+  },
+  {
+    "largeText": true,
+    "lang": "es",
+    "overflow": false
+  }
+]
