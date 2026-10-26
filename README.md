@@ -78,3 +78,14 @@ Korean consumer-facing name: 공카 (Gongka); English name: Lemera.
 Legacy versioned legal documents are preserved.
 
 Contact: lemera@meroviq.com
+
+## Spanish legal localization
+Spanish policy translations track EN Privacy v1.2 (2026-10-05) and Terms
+v1.0 (2026-08-17), including EEA/UK/Swiss and California notices.
+Routes: /privacy/es/v1.2/, /terms/es/v1.0/, /licenses/es/.
+The browser's es-* language selects Spanish at canonical landing routes.
+Other unsupported languages default to English. Use ?choose=1 at
+/privacy/ or /terms/ to inspect all language options. On /licenses/,
+?lang=en bypasses automatic Spanish selection.
+Before release, verify legal terminology and the site's consistency
+with the current shipped app, especially purchase/entitlement claims.
