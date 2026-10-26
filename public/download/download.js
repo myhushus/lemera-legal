@@ -1,80 +1,87 @@
 (function () {
   "use strict";
 
-  var config = window.LEMERA_DOWNLOAD_CONFIG || {};
-  var ua = navigator.userAgent || "";
-  var language = (navigator.language || "en").toLowerCase();
-  var isKorean = language.indexOf("ko") === 0;
-  var isAndroid = /Android/i.test(ua);
-  var isIOS = /iPhone|iPad|iPod/i.test(ua) ||
-    (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
-
-  var copy = isKorean ? {
-    title: "Lemera 다운로드",
-    subtitle: "사용 중인 기기에 맞는 스토어를 선택하세요.",
-    playCaption: "Android 기기용",
-    appCaption: "iPhone 및 iPad용",
-    open: "열기",
-    comingSoon: "출시 예정",
-    androidNote: "Android 기기입니다. Google Play를 이용하세요.",
-    iosNote: "iPhone 또는 iPad입니다. App Store 버전은 출시 준비 중입니다.",
-    otherNote: "사용 중인 기기의 스토어를 선택하세요."
-  } : {
-    title: "Get Lemera",
-    subtitle: "Choose the store for your device.",
-    playCaption: "For Android devices",
-    appCaption: "For iPhone and iPad",
-    open: "Open",
-    comingSoon: "Coming Soon",
-    androidNote: "You're on Android. Get Lemera from Google Play.",
-    iosNote: "You're on iPhone or iPad. The App Store version is coming soon.",
-    otherNote: "Choose the store for your device."
+  const config = window.LEMERA_DOWNLOAD_CONFIG || {};
+  const nav = navigator;
+  const ua = nav.userAgent || "";
+  const isAndroid = /Android/i.test(ua);
+  const isIOS = /iPhone|iPad|iPod/i.test(ua) ||
+    (nav.platform === "MacIntel" && nav.maxTouchPoints > 1);
+  const supported = ["en", "ko", "es"];
+  const copy = {
+    ko: {
+      title: "Lemera 다운로드",
+      subtitle: "사용 중인 기기에 맞는 스토어를 선택하세요.",
+      playCaption: "Android 기기용", appCaption: "iPhone 및 iPad용",
+      open: "열기", comingSoon: "출시 예정",
+      androidNote: "Android 기기입니다. Google Play를 이용하세요.",
+      iosNote: "iPhone 또는 iPad입니다. App Store 버전은 출시 준비 중입니다.",
+      iosReadyNote: "iPhone 또는 iPad입니다. App Store를 이용하세요.",
+      otherNote: "사용 중인 기기의 스토어를 선택하세요."
+    },
+    en: {
+      title: "Get Lemera",
+      subtitle: "Choose the store for your device.",
+      playCaption: "For Android devices", appCaption: "For iPhone and iPad",
+      open: "Open", comingSoon: "Coming Soon",
+      androidNote: "You're on Android. Get Lemera from Google Play.",
+      iosNote: "You're on iPhone or iPad. The App Store version is coming soon.",
+      iosReadyNote: "You're on iPhone or iPad. Get Lemera from the App Store.",
+      otherNote: "Choose the store for your device."
+    },
+    es: {
+      title: "Descargar Lemera",
+      subtitle: "Elige la tienda correspondiente a tu dispositivo.",
+      playCaption: "Para dispositivos Android", appCaption: "Para iPhone y iPad",
+      open: "Abrir", comingSoon: "Próximamente",
+      androidNote: "Estás usando Android. Descarga Lemera en Google Play.",
+      iosNote: "Estás usando iPhone o iPad. La versión para App Store estará disponible próximamente.",
+      iosReadyNote: "Estás usando iPhone o iPad. Descarga Lemera en App Store.",
+      otherNote: "Elige la tienda de tu dispositivo."
+    }
   };
-
-  var title = document.getElementById("download-title");
-  var subtitle = document.getElementById("download-subtitle");
-  var play = document.getElementById("play-store-link");
-  var app = document.getElementById("app-store-link");
-  var playCaption = document.getElementById("play-caption");
-  var appCaption = document.getElementById("app-caption");
-  var playBadge = document.getElementById("play-badge");
-  var appBadge = document.getElementById("app-badge");
-  var note = document.getElementById("platform-note");
-
-  title.textContent = copy.title;
-  subtitle.textContent = copy.subtitle;
-  playCaption.textContent = copy.playCaption;
-  appCaption.textContent = copy.appCaption;
-  playBadge.textContent = copy.open;
-
-  play.href = config.googlePlayUrl || "#";
-  if (isAndroid) {
-    play.dataset.recommended = "true";
-    note.textContent = copy.androidNote;
+  function resolveLocale(value) {
+    const code = String(value || "en").toLowerCase().split(/[-_]/)[0];
+    return supported.includes(code) ? code : "en";
   }
 
+  const title = document.getElementById("download-title");
+  const subtitle = document.getElementById("download-subtitle");
+  const play = document.getElementById("play-store-link");
+  const app = document.getElementById("app-store-link");
+  const playCaption = document.getElementById("play-caption");
+  const appCaption = document.getElementById("app-caption");
+  const playBadge = document.getElementById("play-badge");
+  const appBadge = document.getElementById("app-badge");
+  const note = document.getElementById("platform-note");
+  const language = document.getElementById("download-language");
+
+  play.href = config.googlePlayUrl || "#";
+  if (isAndroid) play.dataset.recommended = "true";
+  if (isIOS) app.dataset.recommended = "true";
   if (config.appStoreUrl) {
     app.href = config.appStoreUrl;
     app.removeAttribute("aria-disabled");
-    appBadge.textContent = copy.open;
-    if (isIOS) {
-      app.dataset.recommended = "true";
-      note.textContent = isKorean
-        ? "iPhone 또는 iPad입니다. App Store를 이용하세요."
-        : "You're on iPhone or iPad. Get Lemera from the App Store.";
-    }
   } else {
-    appBadge.textContent = copy.comingSoon;
-    app.addEventListener("click", function (event) {
-      event.preventDefault();
-    });
-    if (isIOS) {
-      app.dataset.recommended = "true";
-      note.textContent = copy.iosNote;
-    }
+    app.addEventListener("click", function (event) { event.preventDefault(); });
   }
 
-  if (!isAndroid && !isIOS) {
-    note.textContent = copy.otherNote;
+  function render(locale) {
+    const selected = resolveLocale(locale);
+    const text = copy[selected];
+    if (document.documentElement) document.documentElement.lang = selected;
+    document.title = text.title;
+    title.textContent = text.title;
+    subtitle.textContent = text.subtitle;
+    playCaption.textContent = text.playCaption;
+    appCaption.textContent = text.appCaption;
+    playBadge.textContent = text.open;
+    appBadge.textContent = config.appStoreUrl ? text.open : text.comingSoon;
+    note.textContent = isAndroid ? text.androidNote :
+      isIOS ? (config.appStoreUrl ? text.iosReadyNote : text.iosNote) :
+      text.otherNote;
+    language.value = selected;
   }
+  language.onchange = function () { render(language.value); };
+  render(nav.language);
 })();
