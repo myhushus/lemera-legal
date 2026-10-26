@@ -25,19 +25,24 @@ function document() {
 for(const [name,userAgent,maxTouchPoints,platform] of [
   ['Android','Android',5,'android'],['iPhone','iPhone',5,'ios'],['iPad','iPad',5,'ios'],
   ['iPad desktop UA','Macintosh',5,'ios'],['desktop','Macintosh',0,'other'],['unknown','',0,'other'],
-]) for(const language of ['ko-KR','en-US']) test(`${name} ${language}: install fallback, local copy, manual choice`,()=>{
+]) for(const language of ['ko-KR','en-US','es-ES','es-MX','fr-FR']) test(`${name} ${language}: install fallback, local copy, manual choice`,()=>{
   const doc = document(); mount(doc,{userAgent,maxTouchPoints,language},config,helpers);
   assert.equal(doc.nodes.play.href,playUrl);
   assert.equal(doc.nodes.apple.href,undefined);
   assert.equal(doc.nodes.apple.attrs['aria-disabled'],'true');
-  assert.equal(doc.nodes.soon.textContent,language.startsWith('ko')?'출시 준비 중':'Coming Soon');
-  assert.equal(doc.nodes.brand.textContent,language.startsWith('ko')?'공카':'Lemera');
-  assert.equal(doc.documentElement.lang,language.startsWith('ko')?'ko':'en');
+  const locale=language.startsWith('ko')?'ko':language.startsWith('es')?'es':'en';
+  const soon={ko:'출시 준비 중',en:'Coming Soon',es:'Próximamente'};
+  assert.equal(doc.nodes.soon.textContent,soon[locale]);
+  assert.equal(doc.nodes.brand.textContent,locale==='ko'?'공카':'Lemera');
+  assert.equal(doc.documentElement.lang,locale);
+  assert.equal(doc.nodes.language.value,locale);
   assert.equal(doc.nodes.play.classes.has('recommended'),platform==='android');
   assert.equal(doc.nodes.apple.classes.has('recommended'),platform==='ios');
-  if(platform==='ios')assert.match(doc.nodes['join-lead'].textContent,/출시 준비|coming soon/);
-  doc.nodes.language.onclick();
-  assert.equal(doc.documentElement.lang,language.startsWith('ko')?'en':'ko');
+  if(platform==='ios')assert.match(doc.nodes['join-lead'].textContent,/출시 준비|coming soon|disponible próximamente/);
+  const next=locale==='es'?'en':'es';
+  doc.nodes.language.value=next;
+  doc.nodes.language.onchange();
+  assert.equal(doc.documentElement.lang,next);
   assert.equal(doc.nodes.play.href,playUrl);
 });
 test('one shared config activates App Store without an app update',()=>{
