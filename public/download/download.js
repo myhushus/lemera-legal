@@ -10,6 +10,8 @@
   const supported = ["en", "ko", "es"];
   const copy = {
     ko: {
+      brand:"공카 정보", privacy:"개인정보처리방침", terms:"이용약관", licenses:"라이선스",
+      privacyFull:"개인정보처리방침", termsFull:"이용약관", licensesFull:"오픈소스 라이선스",
       title: "Lemera 다운로드",
       subtitle: "사용 중인 기기에 맞는 스토어를 선택하세요.",
       playCaption: "Android 기기용", appCaption: "iPhone 및 iPad용",
@@ -20,6 +22,8 @@
       otherNote: "사용 중인 기기의 스토어를 선택하세요."
     },
     en: {
+      brand:"Lemera Legal", privacy:"Privacy", terms:"Terms", licenses:"Licenses",
+      privacyFull:"Privacy Policy", termsFull:"Terms of Service", licensesFull:"Open Source Licenses",
       title: "Get Lemera",
       subtitle: "Choose the store for your device.",
       playCaption: "For Android devices", appCaption: "For iPhone and iPad",
@@ -30,6 +34,8 @@
       otherNote: "Choose the store for your device."
     },
     es: {
+      brand:"Información de Lemera", privacy:"Privacidad", terms:"Términos", licenses:"Licencias",
+      privacyFull:"Política de privacidad", termsFull:"Términos del servicio", licensesFull:"Licencias de código abierto",
       title: "Descargar Lemera",
       subtitle: "Elige la tienda correspondiente a tu dispositivo.",
       playCaption: "Para dispositivos Android", appCaption: "Para iPhone y iPad",
@@ -71,6 +77,14 @@
     const text = copy[selected];
     if (document.documentElement) document.documentElement.lang = selected;
     document.title = text.title;
+    const labels = {
+      "download-brand":text.brand, "download-privacy":text.privacy,
+      "download-terms":text.terms, "download-licenses":text.licenses,
+      "download-foot-privacy":text.privacyFull,
+      "download-foot-terms":text.termsFull,
+      "download-foot-licenses":text.licensesFull
+    };
+    for (const [id,label] of Object.entries(labels)) document.getElementById(id).textContent = label;
     title.textContent = text.title;
     subtitle.textContent = text.subtitle;
     playCaption.textContent = text.playCaption;
