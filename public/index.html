@@ -1,22 +1,30 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Lemera Legal</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/assets/legal.css">
-</head>
-<body>
-<main><nav><a href="/">Lemera Legal</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/licenses/">Licenses</a></nav>
-<h1>Lemera Legal</h1>
-<p class='meta'>Legal pages for Lemera by Meroviq.</p>
-<ul>
-<li><a href='/privacy/'>Privacy Policy / 개인정보처리방침</a></li>
-<li><a href='/terms/'>Terms of Service / 이용약관</a></li>
-<li><a href='/licenses/'>Open Source Licenses / 오픈소스 라이선스</a></li>
-<li><a href='/privacy/es/v1.2/es.html'>Política de privacidad (Español)</a></li><li><a href='/terms/es/v1.0/'>Términos del servicio (Español)</a></li><li><a href='/licenses/es/'>Licencias de código abierto (Español)</a></li>
-</ul>
-<footer><p>Contact: <a href='mailto:lemera@meroviq.com'>lemera@meroviq.com</a></p></footer>
+<head><meta charset="utf-8"><title>Lemera Legal</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/assets/legal.css">
+<style>#language{font:inherit;min-height:44px;max-width:100%;border:1px solid var(--border);border-radius:999px;background:var(--card);color:var(--fg);padding:6px 12px}</style></head>
+<body><main>
+<nav><a id="nav-home" href="/">Lemera Legal</a><a id="nav-privacy" href="/privacy/">Privacy</a><a id="nav-terms" href="/terms/">Terms</a><a id="nav-licenses" href="/licenses/">Licenses</a><select id="language" aria-label="Language / 언어 / Idioma"><option value="en">English</option><option value="ko">한국어</option><option value="es">Español</option></select></nav>
+<h1 id="title">Lemera Legal</h1><p class="meta" id="intro">Legal pages for Lemera by Meroviq.</p>
+<ul><li><a id="privacy" href="/privacy/en/v1.2/en.html">Privacy Policy</a></li><li><a id="terms" href="/terms/en/v1.0/">Terms of Service</a></li><li><a id="licenses" href="/licenses/?lang=en">Open Source Licenses</a></li></ul>
+<footer><p><span id="contact">Contact</span>: <a href="mailto:lemera@meroviq.com">lemera@meroviq.com</a></p></footer>
 </main>
-</body>
-</html>
+<script>
+(function(){
+  const copy={
+    en:{brand:'Lemera Legal',privacy:'Privacy',terms:'Terms',licenses:'Licenses',policy:'Privacy Policy',service:'Terms of Service',notice:'Open Source Licenses',intro:'Legal pages for Lemera by Meroviq.',contact:'Contact',links:['/privacy/en/v1.2/en.html','/terms/en/v1.0/','/licenses/?lang=en']},
+    ko:{brand:'공카 정보',privacy:'개인정보처리방침',terms:'이용약관',licenses:'라이선스',policy:'개인정보처리방침',service:'이용약관',notice:'오픈소스 라이선스',intro:'Meroviq 공카의 법률 문서입니다.',contact:'문의',links:['/privacy/ko/v1.3/ko.html','/terms/ko/v1.1/','/licenses/?lang=en']},
+    es:{brand:'Información de Lemera',privacy:'Privacidad',terms:'Términos',licenses:'Licencias',policy:'Política de privacidad',service:'Términos del servicio',notice:'Licencias de código abierto',intro:'Documentos legales de Lemera, de Meroviq.',contact:'Contacto',links:['/privacy/es/v1.2/es.html','/terms/es/v1.0/','/licenses/es/']}
+  };
+  const pick=value=>{const code=String(value||'en').toLowerCase().split(/[-_]/)[0];return copy[code]?code:'en';};
+  const selector=document.getElementById('language');
+  function render(locale){
+    const code=pick(locale),t=copy[code];
+    document.documentElement.lang=code;document.title=t.brand;
+    for(const [id,key] of Object.entries({'nav-home':'brand','nav-privacy':'privacy','nav-terms':'terms','nav-licenses':'licenses',title:'brand',intro:'intro',privacy:'policy',terms:'service',licenses:'notice',contact:'contact'}))document.getElementById(id).textContent=t[key];
+    ['privacy','terms','licenses'].forEach((id,i)=>document.getElementById(id).href=t.links[i]);
+    selector.value=code;
+  }
+  selector.addEventListener('change',()=>render(selector.value));
+  render(navigator.language);
+})();
+</script></body></html>
