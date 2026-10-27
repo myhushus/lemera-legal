@@ -1,5 +1,6 @@
 (function (root) {
   'use strict';
+
   const copy = {
     ko: {
       brand: '공카', title: '공카 그룹에 참가하기', privacy: '개인정보처리방침', terms: '이용약관',
@@ -19,9 +20,25 @@
       soon: 'Coming Soon',
       note: 'After installing, scan the Host’s QR code again in the app. If Lemera is already installed, open its scanner.',
     },
+    fr: {"brand": "Lemera", "title": "Rejoindre un groupe Lemera", "privacy": "Confidentialité", "terms": "Conditions", "android": "Installez Lemera pour rejoindre ce groupe.", "ios": "Lemera pour iPhone et iPad sera bientôt disponible.", "iosReady": "Installez Lemera pour rejoindre ce groupe.", "other": "Rejoignez les groupes sur iPhone ou Android. Lemera pour Android est disponible sur Google Play.", "soon": "Bientôt disponible", "note": "Après l’installation, scannez à nouveau le code QR de l’hôte dans Lemera. Si l’application est déjà installée, ouvrez son scanner."},
+    es: {
+      brand: 'Lemera', title: 'Únete a un grupo de Lemera', privacy: 'Privacidad', terms: 'Términos',
+      android: 'Instala Lemera para unirte a este grupo.',
+      ios: 'Lemera para iPhone y iPad estará disponible próximamente.',
+      iosReady: 'Instala Lemera para unirte a este grupo.',
+      other: 'Puedes unirte desde un iPhone o un dispositivo Android. Lemera para Android está disponible en Google Play.',
+      soon: 'Próximamente',
+      note: 'Después de instalar la aplicación, vuelve a escanear el código QR del anfitrión desde Lemera. Si ya la tienes instalada, abre su escáner.',
+    },
   };
-  // The deployed /download script owns a different DOM. Reuse its store
-  // config without executing that page script on the join page.
+  const supported = ['en', 'ko', 'es', 'fr'];
+
+  function resolveLocale(language) {
+    const code = String(language || 'en').toLowerCase().split(/[-_]/)[0];
+    return supported.includes(code) ? code : 'en';
+  }
+  // The deployed /download script owns a different DOM. Reuse only its
+  // store config without executing that page's script on the join page.
   function platform(nav) {
     var ua = nav.userAgent || '';
     if (/iPhone|iPad|iPod/i.test(ua) || (/Macintosh/i.test(ua) && nav.maxTouchPoints > 1) ||
@@ -36,14 +53,16 @@
     } catch (_) { return ''; }
   }
   function mount(doc, nav, config, helpers = { platform, storeUrl }, locale) {
-    const ko = locale ? locale === 'ko' : /^ko\b/i.test(nav.language || '');
-    const text = copy[ko ? 'ko' : 'en'];
+    const selected = resolveLocale(locale || nav.language);
+    const text = copy[selected];
     const device = helpers.platform(nav);
     const playUrl = helpers.storeUrl(config.googlePlayUrl, 'play.google.com');
     const appleUrl = helpers.storeUrl(config.appStoreUrl, 'apps.apple.com');
-    doc.documentElement.lang = ko ? 'ko' : 'en';
+    doc.documentElement.lang = selected;
     doc.title = text.title;
     for (const id of ['brand', 'privacy', 'terms']) doc.getElementById(id).textContent = text[id];
+    doc.getElementById('privacy').href = selected === 'fr' ? '/privacy/fr/v1.4/' : '/privacy/';
+    doc.getElementById('terms').href = selected === 'fr' ? '/terms/fr/v1.2/' : '/terms/';
     doc.getElementById('join-title').textContent = text.title;
     doc.getElementById('join-lead').textContent = text[device === 'ios' && appleUrl ? 'iosReady' : device];
     doc.getElementById('join-note').textContent = text.note;
@@ -62,11 +81,11 @@
       doc.getElementById('soon').textContent = text.soon;
     }
     const language = doc.getElementById('language');
-    language.textContent = ko ? 'English' : '한국어';
-    language.onclick = () => mount(doc, nav, config, helpers, ko ? 'en' : 'ko');
+    language.value = selected;
+    language.onchange = () => mount(doc, nav, config, helpers, language.value);
     // No fragment access, persistence, analytics, automatic navigation or
     // deferred-install promise. Only the app decodes group credentials.
   }
-  if (typeof module !== 'undefined') module.exports = { mount, copy, platform, storeUrl };
+  if (typeof module !== 'undefined') module.exports = { mount, copy, platform, storeUrl, resolveLocale };
   if (root.document) mount(root.document, root.navigator, root.LEMERA_JOIN_CONFIG || {});
 })(typeof window === 'undefined' ? globalThis : window);

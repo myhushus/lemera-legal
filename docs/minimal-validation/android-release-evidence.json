@@ -1,0 +1,81 @@
+{
+  "application_id": "com.meroviq.lemera",
+  "version_name": "1.1.0",
+  "version_code": 13,
+  "engine": "ZXing-C++ 3.1.1",
+  "bytes": 41966015,
+  "sha256": "8eb951f93def80e72b3178ad9dbb89682517431f862329eae4e87d0b08eec7a0",
+  "certificate_sha256": "09:57:EC:47:5D:CE:99:7D:1D:58:7F:62:F8:04:85:B5:E9:A0:1E:81:A2:44:26:65:24:0F:00:72:CB:D5:01:F7",
+  "artifact": "/Volumes/DevSSD/Dev/release-artifacts/lemera/android/lemera-1.1.0-13-zxing-release-20261026.aab",
+  "created_at": "2026-10-26T19:39:34.385593+09:00",
+  "validation": {
+    "bundletool": "passed",
+    "jar_signature": "verified; self-signed upload certificate and JarInputStream ordering warnings retained in log",
+    "upload_certificate_matches_prior_release": true,
+    "zip_crc": "passed",
+    "mlkit_code_models_transport_removed": true,
+    "zxing_notice_bundled": true,
+    "arm64_load_alignments": {
+      "base/lib/arm64-v8a/libapp.so": [
+        65536,
+        65536,
+        65536
+      ],
+      "base/lib/arm64-v8a/libdartjni.so": [
+        16384,
+        16384,
+        16384
+      ],
+      "base/lib/arm64-v8a/libdatastore_shared_counter.so": [
+        16384,
+        16384,
+        16384
+      ],
+      "base/lib/arm64-v8a/libflutter.so": [
+        65536,
+        65536,
+        65536
+      ],
+      "base/lib/arm64-v8a/libimage_processing_util_jni.so": [
+        16384,
+        16384,
+        16384
+      ],
+      "base/lib/arm64-v8a/libsurface_util_jni.so": [
+        16384,
+        16384
+      ],
+      "base/lib/arm64-v8a/libzxingcpp_android.so": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    "flutter_tests": 4814,
+    "android_app_tests": 41,
+    "scanner_tests": 42,
+    "legal_tests": 107,
+    "analyzer_existing_issues": 47,
+    "a31Final13": {
+      "completedCycles": 3,
+      "allUiTransitionsPassed": true,
+      "processes": [
+        "30051"
+      ],
+      "frameAnalysisLogs": 17,
+      "fatalOrReleaseTimeout": false,
+      "type": "debug separate application ID; production data untouched; no photos captured"
+    }
+  },
+  "not_uploaded": true,
+  "not_published": true,
+  "ios_unchanged": true,
+  "previous_local_mlkit_code13_preserved": true,
+  "unverified": [
+    "second Android full peer flow (not a prerequisite per user)",
+    "long-duration battery/difficult optical conditions",
+    "destination-level network capture",
+    "physical 16 KB device",
+    "final iOS IPA"
+  ]
+}

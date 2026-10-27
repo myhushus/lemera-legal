@@ -25,12 +25,13 @@ for(const [name,userAgent,platform,maxTouchPoints,expected] of [
   ['iPad desktop UA','Macintosh','MacIntel',5,'ios'],
   ['desktop','Macintosh','MacIntel',0,'other'],
   ['unknown','','',0,'other'],
-]) for(const language of ['ko-KR','en-US']) test(`deployed download: ${name} ${language}`,()=>{
+]) for(const language of ['ko-KR','en-US','es-ES','es-MX','ja-JP']) test(`deployed download: ${name} ${language}`,()=>{
   const nodes=mount({userAgent,platform,maxTouchPoints,language});
   assert.equal(nodes['play-store-link'].href,playUrl);
   assert.equal(nodes['app-store-link'].href,undefined);
   assert.equal(nodes['app-store-link'].attributes['aria-disabled'],'true');
-  assert.equal(nodes['app-badge'].textContent,language.startsWith('ko')?'출시 예정':'Coming Soon');
+  const expectedCopy=language.startsWith('ko')?'출시 예정':language.startsWith('es')?'Próximamente':'Coming Soon';
+  assert.equal(nodes['app-badge'].textContent,expectedCopy);
   assert.equal(nodes['play-store-link'].dataset.recommended,expected==='android'?'true':undefined);
   assert.equal(nodes['app-store-link'].dataset.recommended,expected==='ios'?'true':undefined);
   let prevented=false;nodes['app-store-link'].click({preventDefault(){prevented=true;}});assert.equal(prevented,true);
@@ -47,4 +48,16 @@ test('one shared config value enables the published App Store link',()=>{
 });
 test('deployed download has no fragment read, storage, analytics or redirect',()=>{
   assert.doesNotMatch(script,/location\s*[.\[]|localStorage|sessionStorage|sendBeacon|fetch\s*\(|window\.open/);
+});
+
+test('download Spanish language can be selected manually without changing store URLs',()=>{
+  const nodes=mount({userAgent:'Android',language:'en-US'});
+  nodes['download-language'].value='es';
+  nodes['download-language'].onchange();
+  assert.equal(nodes['download-title'].textContent,'Descargar Lemera');
+  assert.equal(nodes['app-badge'].textContent,'Próximamente');
+  assert.equal(nodes['play-store-link'].href,playUrl);
+  nodes['download-language'].value='ko';
+  nodes['download-language'].onchange();
+  assert.equal(nodes['app-badge'].textContent,'출시 예정');
 });
