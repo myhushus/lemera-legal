@@ -23,7 +23,7 @@ test('Spanish privacy variants and terms preserve all numbered sections',()=>{
   assert.match(terms,/17 de agosto de 2026/);
 });
 test('Spanish license package inventory matches English table rows',()=>{
-  const source=load('licenses/index.html').split('<hr>')[0];
+  const source=load('licenses/history/pre-zxing-20261027/index.html').split('<hr>')[0];
   const spanish=load('licenses/es/index.html');
   assert.equal((spanish.match(/<tr>/g)||[]).length,(source.match(/<tr>/g)||[]).length);
   assert.match(spanish,/Licencias de código abierto/);
@@ -31,8 +31,8 @@ test('Spanish license package inventory matches English table rows',()=>{
 });
 test('Spanish policy and terms are selected from browser locale; English fallback preserved',()=>{
   const specs=[
-    ['privacy','/privacy/es/v1.2/','/privacy/en/v1.2/','/privacy/ko/v1.3/'],
-    ['terms','/terms/es/v1.0/','/terms/en/v1.0/','/terms/ko/v1.1/'],
+    ['privacy','/privacy/es/v1.4/','/privacy/en/v1.4/','/privacy/ko/v1.4/'],
+    ['terms','/terms/es/v1.2/','/terms/en/v1.2/','/terms/ko/v1.2/'],
   ];
   for(const [page,es,en,ko] of specs){
     const html=load(page+'/index.html');
@@ -51,7 +51,7 @@ test('Spanish policy and terms are selected from browser locale; English fallbac
 });
 test('Spanish links do not alter join/download endpoints or application links',()=>{
   for(const p of ['join/index.html','download/index.html'])assert.match(load(p),/value="es"/);
-  assert.match(load('privacy/index.html'),/privacy\/es\/v1\.2/);
-  assert.match(load('terms/index.html'),/terms\/es\/v1\.0/);
-  assert.match(load('licenses/index.html'),/licenses\/es/);
+  assert.match(load('privacy/index.html'),/privacy\/es\/v1\.4/);
+  assert.match(load('terms/index.html'),/terms\/es\/v1\.2/);
+  assert.match(load('licenses/index.html'),/licenses\/releases\/android-1\.1\.0-13\/es/);
 });

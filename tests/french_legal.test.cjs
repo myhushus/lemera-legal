@@ -4,7 +4,7 @@ const root=path.resolve(__dirname,'../public');const read=p=>fs.readFileSync(pat
 for(const suffix of ['','-eea-uk','-us-ca'])test(`French privacy ${suffix||'global'} preserves structure and verified processing`,()=>{
  const h=read(`privacy/fr/v1.4/fr${suffix}.html`);
  assert.match(h,/<html lang="fr">/);assert.equal((h.match(/<h2>\d+\./g)||[]).length,15);
- assert.match(h,/data-publication-status="draft"/);
+ assert.match(h,/27 octobre 2026/);assert.doesNotMatch(h,/data-publication-status="draft"/);
  for(const key of ['photo-storage','platform-scope','android-zxing-version13','legacy-mlkit','profile-retention','os-backup','photo-deletion','ios-local-network'])assert.match(h,new RegExp(`data-policy-fact="${key}"`));
  assert.match(h,/Les membres Android et iPhone peuvent rejoindre un groupe hébergé sur Android/);
  assert.match(h,/les membres Android ne peuvent pas rejoindre un hôte iPhone/);
@@ -29,7 +29,7 @@ test('French licenses use the identical component/version inventory and original
  assert.match(fr,/tabindex="0" role="region"/);
 });
 test('regional French resolves to French policy while unsupported locales still fall back',()=>{
- for(const [page,expected,english] of [['privacy','/privacy/fr/v1.4/','/privacy/en/v1.2/'],['terms','/terms/fr/v1.2/','/terms/en/v1.0/']]){
+ for(const [page,expected,english] of [['privacy','/privacy/fr/v1.4/','/privacy/en/v1.4/'],['terms','/terms/fr/v1.2/','/terms/en/v1.2/']]){
   const script=read(page+'/index.html').match(/<script>([\s\S]*?)<\/script>/)[1];
   for(const locale of ['fr-FR','fr-CA','fr-BE','fr-CH','fr']){
    let got='';const location={search:'',replace:u=>got=u};

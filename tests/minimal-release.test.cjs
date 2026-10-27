@@ -14,7 +14,7 @@ for(const lang of ['ko','en','es']){
    assert.equal((p.match(/<h2>\d+\./g)||[]).length,15);
    for(const key of ['android-zxing-version13','legacy-mlkit','platform-scope','photo-storage','profile-retention','os-backup','photo-deletion'])assert.match(p,new RegExp(`data-policy-fact="${key}"`));
    assert.match(p,/ZXing-C\+\+/);assert.match(p,/Vision/);assert.match(p,/versionCode 13/);
-   assert.match(p,/data-publication-status="draft"/);
+   assert.match(p,/2026/); assert.doesNotMatch(p,/data-publication-status="draft"/);
    assert.doesNotMatch(p,/iOS 사이의 그룹 연결은 지원하지|Group connections between Android and iOS are not supported|No se admiten conexiones de grupo entre Android e iOS/);
    const direction={ko:/Android Host의 그룹에는 Android 및 iPhone Member/,en:/Android and iPhone Members can join a group hosted on Android/,es:/Los miembros Android y iPhone pueden unirse a un grupo creado por un anfitrión Android/};
    assert.match(p,direction[lang]);assert.match(t,direction[lang]);
