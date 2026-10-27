@@ -7,7 +7,7 @@
   const isAndroid = /Android/i.test(ua);
   const isIOS = /iPhone|iPad|iPod/i.test(ua) ||
     (nav.platform === "MacIntel" && nav.maxTouchPoints > 1);
-  const supported = ["en", "ko", "es"];
+  const supported = ["en", "ko", "es", "fr"];
   const copy = {
     ko: {
       brand:"공카 정보", privacy:"개인정보처리방침", terms:"이용약관", licenses:"라이선스",
@@ -33,6 +33,7 @@
       iosReadyNote: "You're on iPhone or iPad. Get Lemera from the App Store.",
       otherNote: "Choose the store for your device."
     },
+    fr: {"brand": "Informations de Lemera", "privacy": "Confidentialité", "terms": "Conditions", "licenses": "Licences", "privacyFull": "Politique de confidentialité", "termsFull": "Conditions d’utilisation", "licensesFull": "Licences open source", "title": "Télécharger Lemera", "subtitle": "Choisissez la boutique de votre appareil.", "playCaption": "Pour les appareils Android", "appCaption": "Pour iPhone et iPad", "open": "Ouvrir", "comingSoon": "Bientôt disponible", "androidNote": "Vous utilisez Android. Téléchargez Lemera sur Google Play.", "iosNote": "Vous utilisez un iPhone ou un iPad. La version App Store sera bientôt disponible.", "iosReadyNote": "Vous utilisez un iPhone ou un iPad. Téléchargez Lemera sur l’App Store.", "otherNote": "Choisissez la boutique de votre appareil."},
     es: {
       brand:"Información de Lemera", privacy:"Privacidad", terms:"Términos", licenses:"Licencias",
       privacyFull:"Política de privacidad", termsFull:"Términos del servicio", licensesFull:"Licencias de código abierto",
@@ -85,6 +86,11 @@
       "download-foot-licenses":text.licensesFull
     };
     for (const [id,label] of Object.entries(labels)) document.getElementById(id).textContent = label;
+    for (const [id,route] of Object.entries({'download-privacy':'privacy','download-terms':'terms','download-licenses':'licenses','download-foot-privacy':'privacy','download-foot-terms':'terms','download-foot-licenses':'licenses'})) {
+      const french = {privacy:'/privacy/fr/v1.4/',terms:'/terms/fr/v1.2/',licenses:'/licenses/fr/'};
+      document.getElementById(id).href = selected === 'fr' ? french[route] : '/'+route+'/';
+    }
+    document.querySelector?.('.store-list')?.setAttribute('aria-label', selected === 'fr' ? 'Options de téléchargement' : 'Download options');
     title.textContent = text.title;
     subtitle.textContent = text.subtitle;
     playCaption.textContent = text.playCaption;

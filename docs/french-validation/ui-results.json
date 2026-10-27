@@ -1,0 +1,669 @@
+{
+  "cases": [
+    {
+      "route": "/",
+      "width": 320,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Informations de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr.html",
+      "width": 320,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-eea-uk.html",
+      "width": 320,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-us-ca.html",
+      "width": 320,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/terms/fr/v1.2/",
+      "width": 320,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Conditions d’utilisation de Lemera"
+    },
+    {
+      "route": "/licenses/fr/",
+      "width": 320,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences de Lemera"
+    },
+    {
+      "route": "/licenses/releases/android-1.1.0-13/fr/",
+      "width": 320,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences open source — Android 1.1.0 (13)"
+    },
+    {
+      "route": "/join/",
+      "width": 320,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Rejoindre un groupe Lemera"
+    },
+    {
+      "route": "/download/",
+      "width": 320,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Télécharger Lemera"
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Informations de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr.html",
+      "width": 320,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-eea-uk.html",
+      "width": 320,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-us-ca.html",
+      "width": 320,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/terms/fr/v1.2/",
+      "width": 320,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Conditions d’utilisation de Lemera"
+    },
+    {
+      "route": "/licenses/fr/",
+      "width": 320,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences de Lemera"
+    },
+    {
+      "route": "/licenses/releases/android-1.1.0-13/fr/",
+      "width": 320,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences open source — Android 1.1.0 (13)"
+    },
+    {
+      "route": "/join/",
+      "width": 320,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Rejoindre un groupe Lemera"
+    },
+    {
+      "route": "/download/",
+      "width": 320,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Télécharger Lemera"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Informations de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr.html",
+      "width": 390,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-eea-uk.html",
+      "width": 390,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-us-ca.html",
+      "width": 390,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/terms/fr/v1.2/",
+      "width": 390,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Conditions d’utilisation de Lemera"
+    },
+    {
+      "route": "/licenses/fr/",
+      "width": 390,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences de Lemera"
+    },
+    {
+      "route": "/licenses/releases/android-1.1.0-13/fr/",
+      "width": 390,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences open source — Android 1.1.0 (13)"
+    },
+    {
+      "route": "/join/",
+      "width": 390,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Rejoindre un groupe Lemera"
+    },
+    {
+      "route": "/download/",
+      "width": 390,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Télécharger Lemera"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Informations de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr.html",
+      "width": 390,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-eea-uk.html",
+      "width": 390,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-us-ca.html",
+      "width": 390,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/terms/fr/v1.2/",
+      "width": 390,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Conditions d’utilisation de Lemera"
+    },
+    {
+      "route": "/licenses/fr/",
+      "width": 390,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences de Lemera"
+    },
+    {
+      "route": "/licenses/releases/android-1.1.0-13/fr/",
+      "width": 390,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences open source — Android 1.1.0 (13)"
+    },
+    {
+      "route": "/join/",
+      "width": 390,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Rejoindre un groupe Lemera"
+    },
+    {
+      "route": "/download/",
+      "width": 390,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Télécharger Lemera"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Informations de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr.html",
+      "width": 768,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-eea-uk.html",
+      "width": 768,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-us-ca.html",
+      "width": 768,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/terms/fr/v1.2/",
+      "width": 768,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Conditions d’utilisation de Lemera"
+    },
+    {
+      "route": "/licenses/fr/",
+      "width": 768,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences de Lemera"
+    },
+    {
+      "route": "/licenses/releases/android-1.1.0-13/fr/",
+      "width": 768,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences open source — Android 1.1.0 (13)"
+    },
+    {
+      "route": "/join/",
+      "width": 768,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Rejoindre un groupe Lemera"
+    },
+    {
+      "route": "/download/",
+      "width": 768,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Télécharger Lemera"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Informations de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr.html",
+      "width": 768,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-eea-uk.html",
+      "width": 768,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-us-ca.html",
+      "width": 768,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/terms/fr/v1.2/",
+      "width": 768,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Conditions d’utilisation de Lemera"
+    },
+    {
+      "route": "/licenses/fr/",
+      "width": 768,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences de Lemera"
+    },
+    {
+      "route": "/licenses/releases/android-1.1.0-13/fr/",
+      "width": 768,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences open source — Android 1.1.0 (13)"
+    },
+    {
+      "route": "/join/",
+      "width": 768,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Rejoindre un groupe Lemera"
+    },
+    {
+      "route": "/download/",
+      "width": 768,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Télécharger Lemera"
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Informations de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr.html",
+      "width": 1280,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-eea-uk.html",
+      "width": 1280,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-us-ca.html",
+      "width": 1280,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/terms/fr/v1.2/",
+      "width": 1280,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Conditions d’utilisation de Lemera"
+    },
+    {
+      "route": "/licenses/fr/",
+      "width": 1280,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences de Lemera"
+    },
+    {
+      "route": "/licenses/releases/android-1.1.0-13/fr/",
+      "width": 1280,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences open source — Android 1.1.0 (13)"
+    },
+    {
+      "route": "/join/",
+      "width": 1280,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Rejoindre un groupe Lemera"
+    },
+    {
+      "route": "/download/",
+      "width": 1280,
+      "scheme": "light",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Télécharger Lemera"
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Informations de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr.html",
+      "width": 1280,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-eea-uk.html",
+      "width": 1280,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/privacy/fr/v1.4/fr-us-ca.html",
+      "width": 1280,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Politique de confidentialité de Lemera"
+    },
+    {
+      "route": "/terms/fr/v1.2/",
+      "width": 1280,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Conditions d’utilisation de Lemera"
+    },
+    {
+      "route": "/licenses/fr/",
+      "width": 1280,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences de Lemera"
+    },
+    {
+      "route": "/licenses/releases/android-1.1.0-13/fr/",
+      "width": 1280,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Licences open source — Android 1.1.0 (13)"
+    },
+    {
+      "route": "/join/",
+      "width": 1280,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Rejoindre un groupe Lemera"
+    },
+    {
+      "route": "/download/",
+      "width": 1280,
+      "scheme": "dark",
+      "lang": "fr",
+      "overflow": false,
+      "title": "Télécharger Lemera"
+    },
+    {
+      "manual": "/",
+      "expected": "fr",
+      "lang": "fr"
+    },
+    {
+      "manual": "/",
+      "expected": "es",
+      "lang": "es"
+    },
+    {
+      "manual": "/",
+      "expected": "ko",
+      "lang": "ko"
+    },
+    {
+      "manual": "/",
+      "expected": "en",
+      "lang": "en"
+    },
+    {
+      "manual": "/join/",
+      "expected": "fr",
+      "lang": "fr"
+    },
+    {
+      "manual": "/join/",
+      "expected": "es",
+      "lang": "es"
+    },
+    {
+      "manual": "/join/",
+      "expected": "ko",
+      "lang": "ko"
+    },
+    {
+      "manual": "/join/",
+      "expected": "en",
+      "lang": "en"
+    },
+    {
+      "manual": "/download/",
+      "expected": "fr",
+      "lang": "fr"
+    },
+    {
+      "manual": "/download/",
+      "expected": "es",
+      "lang": "es"
+    },
+    {
+      "manual": "/download/",
+      "expected": "ko",
+      "lang": "ko"
+    },
+    {
+      "manual": "/download/",
+      "expected": "en",
+      "lang": "en"
+    },
+    {
+      "largeText": "/privacy/fr/v1.4/fr.html",
+      "overflow": false
+    },
+    {
+      "largeText": "/terms/fr/v1.2/",
+      "overflow": false
+    },
+    {
+      "largeText": "/licenses/releases/android-1.1.0-13/fr/",
+      "overflow": false
+    },
+    {
+      "entry": "/privacy/",
+      "url": "http://127.0.0.1:8771/privacy/fr/v1.4/fr.html",
+      "lang": "fr"
+    },
+    {
+      "entry": "/terms/",
+      "url": "http://127.0.0.1:8771/terms/fr/v1.2/",
+      "lang": "fr"
+    },
+    {
+      "entry": "/licenses/",
+      "url": "http://127.0.0.1:8771/licenses/fr/",
+      "lang": "fr"
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

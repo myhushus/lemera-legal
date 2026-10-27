@@ -20,6 +20,7 @@
       soon: 'Coming Soon',
       note: 'After installing, scan the Host’s QR code again in the app. If Lemera is already installed, open its scanner.',
     },
+    fr: {"brand": "Lemera", "title": "Rejoindre un groupe Lemera", "privacy": "Confidentialité", "terms": "Conditions", "android": "Installez Lemera pour rejoindre ce groupe.", "ios": "Lemera pour iPhone et iPad sera bientôt disponible.", "iosReady": "Installez Lemera pour rejoindre ce groupe.", "other": "Rejoignez les groupes sur iPhone ou Android. Lemera pour Android est disponible sur Google Play.", "soon": "Bientôt disponible", "note": "Après l’installation, scannez à nouveau le code QR de l’hôte dans Lemera. Si l’application est déjà installée, ouvrez son scanner."},
     es: {
       brand: 'Lemera', title: 'Únete a un grupo de Lemera', privacy: 'Privacidad', terms: 'Términos',
       android: 'Instala Lemera para unirte a este grupo.',
@@ -30,7 +31,7 @@
       note: 'Después de instalar la aplicación, vuelve a escanear el código QR del anfitrión desde Lemera. Si ya la tienes instalada, abre su escáner.',
     },
   };
-  const supported = ['en', 'ko', 'es'];
+  const supported = ['en', 'ko', 'es', 'fr'];
 
   function resolveLocale(language) {
     const code = String(language || 'en').toLowerCase().split(/[-_]/)[0];
@@ -60,6 +61,8 @@
     doc.documentElement.lang = selected;
     doc.title = text.title;
     for (const id of ['brand', 'privacy', 'terms']) doc.getElementById(id).textContent = text[id];
+    doc.getElementById('privacy').href = selected === 'fr' ? '/privacy/fr/v1.4/' : '/privacy/';
+    doc.getElementById('terms').href = selected === 'fr' ? '/terms/fr/v1.2/' : '/terms/';
     doc.getElementById('join-title').textContent = text.title;
     doc.getElementById('join-lead').textContent = text[device === 'ios' && appleUrl ? 'iosReady' : device];
     doc.getElementById('join-note').textContent = text.note;

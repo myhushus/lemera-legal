@@ -37,7 +37,7 @@ test('Spanish policy and terms are selected from browser locale; English fallbac
   for(const [page,es,en,ko] of specs){
     const html=load(page+'/index.html');
     const script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
-    for(const [locale,expected] of [['es-ES',es],['es-MX',es],['en-US',en],['ko-KR',ko],['fr-FR',en]]){
+    for(const [locale,expected] of [['es-ES',es],['es-MX',es],['en-US',en],['ko-KR',ko],['ja-JP',en]]){
       let redirected='';
       const location={search:'',replace(u){redirected=u;}};
       vm.runInNewContext(script,{navigator:{language:locale},location,window:{location},URLSearchParams});

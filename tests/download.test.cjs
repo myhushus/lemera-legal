@@ -25,7 +25,7 @@ for(const [name,userAgent,platform,maxTouchPoints,expected] of [
   ['iPad desktop UA','Macintosh','MacIntel',5,'ios'],
   ['desktop','Macintosh','MacIntel',0,'other'],
   ['unknown','','',0,'other'],
-]) for(const language of ['ko-KR','en-US','es-ES','es-MX','fr-FR']) test(`deployed download: ${name} ${language}`,()=>{
+]) for(const language of ['ko-KR','en-US','es-ES','es-MX','ja-JP']) test(`deployed download: ${name} ${language}`,()=>{
   const nodes=mount({userAgent,platform,maxTouchPoints,language});
   assert.equal(nodes['play-store-link'].href,playUrl);
   assert.equal(nodes['app-store-link'].href,undefined);

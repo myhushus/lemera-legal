@@ -30,15 +30,15 @@ for(const [name,userAgent,maxTouchPoints,platform] of [
   assert.equal(doc.nodes.play.href,playUrl);
   assert.equal(doc.nodes.apple.href,undefined);
   assert.equal(doc.nodes.apple.attrs['aria-disabled'],'true');
-  const locale=language.startsWith('ko')?'ko':language.startsWith('es')?'es':'en';
-  const soon={ko:'출시 준비 중',en:'Coming Soon',es:'Próximamente'};
+  const locale=language.startsWith('ko')?'ko':language.startsWith('es')?'es':language.startsWith('fr')?'fr':'en';
+  const soon={ko:'출시 준비 중',en:'Coming Soon',es:'Próximamente',fr:'Bientôt disponible'};
   assert.equal(doc.nodes.soon.textContent,soon[locale]);
   assert.equal(doc.nodes.brand.textContent,locale==='ko'?'공카':'Lemera');
   assert.equal(doc.documentElement.lang,locale);
   assert.equal(doc.nodes.language.value,locale);
   assert.equal(doc.nodes.play.classes.has('recommended'),platform==='android');
   assert.equal(doc.nodes.apple.classes.has('recommended'),platform==='ios');
-  if(platform==='ios')assert.match(doc.nodes['join-lead'].textContent,/출시 준비|coming soon|disponible próximamente/);
+  if(platform==='ios')assert.match(doc.nodes['join-lead'].textContent,/출시 준비|coming soon|disponible próximamente|bientôt disponible/);
   const next=locale==='es'?'en':'es';
   doc.nodes.language.value=next;
   doc.nodes.language.onchange();

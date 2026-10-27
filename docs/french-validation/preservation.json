@@ -1,0 +1,19 @@
+{
+  "unchanged_policy_bodies": [
+    "public/privacy/ko/v1.4/ko-eea-uk.html",
+    "public/privacy/ko/v1.4/ko.html",
+    "public/privacy/ko/v1.4/ko-us-ca.html",
+    "public/terms/ko/v1.2/index.html",
+    "public/privacy/en/v1.4/en-eea-uk.html",
+    "public/privacy/en/v1.4/en.html",
+    "public/privacy/en/v1.4/en-us-ca.html",
+    "public/terms/en/v1.2/index.html",
+    "public/privacy/es/v1.4/es-us-ca.html",
+    "public/privacy/es/v1.4/es.html",
+    "public/privacy/es/v1.4/es-eea-uk.html",
+    "public/terms/es/v1.2/index.html"
+  ],
+  "inventory_unchanged": true,
+  "internal_references_checked": 1789,
+  "missing_links": []
+}
