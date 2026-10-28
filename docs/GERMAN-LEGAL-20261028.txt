@@ -1,0 +1,19 @@
+Lemera German Legal — prepared 2026-10-28 Asia/Seoul
+Branch: codex/lemera-legal-german-20261028
+Base: bb162a8 (latest production main at preparation)
+
+Added standard German de, shared by de-DE/de-AT/de-CH: Privacy global, existing EEA/UK/CH and California supplements, Terms, license explanation and Android13 inventory, Home/Join/Download and manual/automatic language selection. Standard German spelling is shared; no Swiss-specific wording claimed.
+
+Translation only: Privacy v1.4 and Terms v1.2 retain the October 27, 2026 effective date. No new legal duties, legal bases, regional applicability or product claims. Existing local sharing, platform directionality, ML Kit legacy-version scope, ZXing Android13 and iOS Vision distinction preserved.
+
+All 20 existing KO/EN/ES/FR/PT current policy bodies are unchanged after navigation removal. Original policy history, license texts, MPL sources, release inventory data, App Links/config, Camera privacy/support pages and app sources remain untouched. 235 component/version entries and original license/source links match English. Original dirty Legal directory is preserved; this work is isolated.
+
+Validation: 103 Node tests passed; 2,600 internal references resolve; git diff --check clean. German browser matrix uses de-DE/de-AT/de-CH, widths 320/390/768/1280, light/dark, nine surfaces plus large-text Home/Join/Download and 18 language switches. Final results in docs/german-preparation/browser.json. Mobile Privacy screenshot visually inspected. Tests are automated browser checks, not real-device/screen-reader certification; no independent native-speaker/legal review claimed.
+
+Actual issue fixed: Download store cards overflowed at 320 px with large text because the flex children could not wrap. Added flex-wrap, min-width:0 and overflow-wrap:anywhere to the existing shared card rule. No font shrinking or new layout system.
+
+No commit/push/merge/production deployment performed. Publication remains a separate approval step under the user's existing operating rule. No Console work required. Indonesian Legal is not included in this German request.
+
+Final result: 219 browser cases passed with zero failures/errors, plus 18 language-switch checks. Added wrapping to Download main as well, because the heading/footer compounds also exceeded the available width at large text. Privacy and Download mobile screenshots inspected. All 103 Node tests passed again after the final fix. Internal references: 2,600 resolved. Existing policy bodies: 20 preserved. No production publication performed.
+
+Publication approved by the user on 2026-10-28 with “응” in reply to the explicit commit/push/deploy question. This supersedes the preparation-stage approval hold above. Proceed through PR CI, merge and live verification.

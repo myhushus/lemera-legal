@@ -1,0 +1,1806 @@
+{
+  "cases": [
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-DE",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-AT",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 768,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "light",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/privacy/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-eea-uk.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/privacy/de/v1.4/de-us-ca.html",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/terms/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/licenses/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/licenses/de/",
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/join/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "locale": "de-CH",
+      "width": 1280,
+      "colorScheme": "dark",
+      "route": "/download/",
+      "lang": "de",
+      "overflow": false,
+      "play": "https://play.google.com/store/apps/details?id=com.meroviq.lemera"
+    },
+    {
+      "route": "/",
+      "locale": "de",
+      "width": 320,
+      "largeText": true,
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "route": "/join/",
+      "locale": "de",
+      "width": 320,
+      "largeText": true,
+      "lang": "de",
+      "overflow": false
+    },
+    {
+      "route": "/download/",
+      "locale": "de",
+      "width": 320,
+      "largeText": true,
+      "lang": "de",
+      "overflow": false
+    }
+  ],
+  "failures": [],
+  "errors": []
+}
