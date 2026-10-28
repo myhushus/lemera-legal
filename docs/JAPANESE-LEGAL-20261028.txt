@@ -1,0 +1,13 @@
+Lemera Japanese Legal — prepared 2026-10-28 Asia/Seoul
+Branch: codex/lemera-legal-japanese-20261028
+Base: 68f20c7fb7cf6b320951f45b87837cf704629378
+
+One Japanese ja translation, selected for ja and ja-JP: Privacy global, existing EEA/UK/CH and California supplements, Terms, license explanation and Android13 inventory, Home, Join, Download and language navigation. No Japan-specific legal commitments or applicability assumptions added. Privacy v1.4 and Terms v1.2 retain effective date 2026-10-27. This is a translation, not a new policy revision.
+
+All 24 existing KO/EN/ES/FR/PT/DE current policy bodies unchanged after navigation removal. Historical policies, original license text/MPL source files and hashes, Camera pages, App Links, store configs and app source preserved. Original dirty Legal repository untouched; changes isolated in this worktree. Japanese license inventory matches all 235 English component/version records and original source/license links.
+
+Validation: 114 Node tests passed; 3,003 internal references resolved; 147 browser cases passed, zero failures/errors, plus 21 language switches on Home/Join/Download. ja and ja-JP, widths 320/390/768/1280, light/dark, nine surfaces and large-text checks. Japanese mobile Privacy screenshot visually inspected. Japanese document wrapping uses line-break:strict and overflow-wrap:break-word. No font shrinking or new fonts. Existing unsupported-language tests moved from ja-JP to still-unsupported it-IT; Download retains ja-JP with Japanese expectations and adds it-IT fallback coverage. No tests skipped or weakened.
+
+Actual device and screen-reader tests not performed; no independent native-speaker/legal review claimed. No app/store/Legal Indonesian changes. No commit/push/merge/deploy performed. Under the existing user instruction, publication follows separate approval after this reviewable preparation result.
+
+Publication approved on 2026-10-28: user answered “응” to the explicit commit/push/deploy question. This supersedes the preparation hold above. Proceed through CI, merge and live verification.

@@ -1,0 +1,299 @@
+✔ camera privacy selects Korean or English fallback and pins Camera v1.1 (11.131917ms)
+✔ camera privacy works without scripts and original policies switch EN/KO (2.207958ms)
+✔ camera landing reuses responsive legal surface with no policy duplication (2.351084ms)
+✔ deployed download: Android ko-KR (7.03325ms)
+✔ deployed download: Android en-US (0.752ms)
+✔ deployed download: Android es-ES (0.598375ms)
+✔ deployed download: Android es-MX (0.507333ms)
+✖ deployed download: Android ja-JP (1.744542ms)
+✔ deployed download: iPhone ko-KR (3.659417ms)
+✔ deployed download: iPhone en-US (0.652458ms)
+✔ deployed download: iPhone es-ES (0.53725ms)
+✔ deployed download: iPhone es-MX (3.683291ms)
+✖ deployed download: iPhone ja-JP (1.605833ms)
+✔ deployed download: iPad ko-KR (0.579792ms)
+✔ deployed download: iPad en-US (0.49725ms)
+✔ deployed download: iPad es-ES (0.751583ms)
+✔ deployed download: iPad es-MX (1.620333ms)
+✖ deployed download: iPad ja-JP (1.429542ms)
+✔ deployed download: iPad desktop UA ko-KR (0.972625ms)
+✔ deployed download: iPad desktop UA en-US (1.671292ms)
+✔ deployed download: iPad desktop UA es-ES (0.652ms)
+✔ deployed download: iPad desktop UA es-MX (9.04825ms)
+✖ deployed download: iPad desktop UA ja-JP (3.417167ms)
+✔ deployed download: desktop ko-KR (0.670333ms)
+✔ deployed download: desktop en-US (0.896ms)
+✔ deployed download: desktop es-ES (1.797292ms)
+✔ deployed download: desktop es-MX (7.6365ms)
+✖ deployed download: desktop ja-JP (5.897042ms)
+✔ deployed download: unknown ko-KR (2.601375ms)
+✔ deployed download: unknown en-US (20.290708ms)
+✔ deployed download: unknown es-ES (0.809167ms)
+✔ deployed download: unknown es-MX (0.590542ms)
+✖ deployed download: unknown ja-JP (0.776958ms)
+✔ deployed download config is shared and stays unpublished on iOS (0.124417ms)
+✔ one shared config value enables the published App Store link (0.961042ms)
+✔ deployed download has no fragment read, storage, analytics or redirect (0.5165ms)
+✔ download Spanish language can be selected manually without changing store URLs (2.742958ms)
+✔ default browser favicon is a valid ICO with the existing app PNG (13.185958ms)
+✔ French privacy global preserves structure and verified processing (3.54125ms)
+✔ French privacy -eea-uk preserves structure and verified processing (0.586084ms)
+✔ French privacy -us-ca preserves structure and verified processing (0.514291ms)
+✔ French terms distinguish withdrawal, deletion, ending and free status (0.493167ms)
+✔ French licenses use the identical component/version inventory and original texts (5.556459ms)
+✖ regional French resolves to French policy while unsupported locales still fall back (5.47875ms)
+✔ French navigation has no missing static targets (51.446791ms)
+✔ German policy variants preserve numbered sections and factual markers (7.680083ms)
+✔ German terms preserve lifecycle and disabled monetization (1.489792ms)
+✔ German license inventory and original license/source links match (4.320916ms)
+✔ de-DE and de-AT route to one German policy and terms (7.449125ms)
+✔ German Join uses same safe platform/store logic (4.754708ms)
+✔ Android ko-KR: install fallback, local copy, manual choice (3.892333ms)
+✔ Android en-US: install fallback, local copy, manual choice (0.184042ms)
+✔ Android es-ES: install fallback, local copy, manual choice (0.139167ms)
+✔ Android es-MX: install fallback, local copy, manual choice (0.133333ms)
+✔ Android fr-FR: install fallback, local copy, manual choice (0.151042ms)
+✔ iPhone ko-KR: install fallback, local copy, manual choice (0.20825ms)
+✔ iPhone en-US: install fallback, local copy, manual choice (0.160959ms)
+✔ iPhone es-ES: install fallback, local copy, manual choice (0.098042ms)
+✔ iPhone es-MX: install fallback, local copy, manual choice (0.147667ms)
+✔ iPhone fr-FR: install fallback, local copy, manual choice (0.193375ms)
+✔ iPad ko-KR: install fallback, local copy, manual choice (0.17325ms)
+✔ iPad en-US: install fallback, local copy, manual choice (0.093708ms)
+✔ iPad es-ES: install fallback, local copy, manual choice (0.08025ms)
+✔ iPad es-MX: install fallback, local copy, manual choice (0.069ms)
+✔ iPad fr-FR: install fallback, local copy, manual choice (0.070917ms)
+✔ iPad desktop UA ko-KR: install fallback, local copy, manual choice (0.06475ms)
+✔ iPad desktop UA en-US: install fallback, local copy, manual choice (0.118917ms)
+✔ iPad desktop UA es-ES: install fallback, local copy, manual choice (0.222375ms)
+✔ iPad desktop UA es-MX: install fallback, local copy, manual choice (0.185917ms)
+✔ iPad desktop UA fr-FR: install fallback, local copy, manual choice (0.108583ms)
+✔ desktop ko-KR: install fallback, local copy, manual choice (0.103542ms)
+✔ desktop en-US: install fallback, local copy, manual choice (0.137625ms)
+✔ desktop es-ES: install fallback, local copy, manual choice (0.107459ms)
+✔ desktop es-MX: install fallback, local copy, manual choice (0.096875ms)
+✔ desktop fr-FR: install fallback, local copy, manual choice (0.097125ms)
+✔ unknown ko-KR: install fallback, local copy, manual choice (0.098375ms)
+✔ unknown en-US: install fallback, local copy, manual choice (0.17725ms)
+✔ unknown es-ES: install fallback, local copy, manual choice (0.097625ms)
+✔ unknown es-MX: install fallback, local copy, manual choice (0.082042ms)
+✔ unknown fr-FR: install fallback, local copy, manual choice (0.078042ms)
+✔ one shared config activates App Store without an app update (0.11925ms)
+✔ page never reads fragment, sends credentials, persists them or redirects (3.518083ms)
+✔ invalid store URLs do not become navigable links (0.837541ms)
+✔ DAL uses user-confirmed PLAY app signing, never upload certificate (2.128208ms)
+✔ future Universal Links generation uses existing real Team ID and only join paths (1.778208ms)
+✔ ko: minimal release retains structure, rights and platform direction (5.62575ms)
+✔ en: minimal release retains structure, rights and platform direction (2.432ms)
+✔ es: minimal release retains structure, rights and platform direction (1.827292ms)
+✔ new release pages have resolvable internal links and keep language/region paths (41.784ms)
+✔ release notices and corresponding MPL source retain their exact SHA-256 (25.674708ms)
+✔ Portuguese policy variants preserve numbered sections and factual markers (3.919125ms)
+✔ Portuguese terms preserve lifecycle and disabled monetization (1.211041ms)
+✔ Portuguese license inventory and original license/source links match (1.349667ms)
+✔ pt-BR and pt-PT route to one Portuguese policy and terms (4.924667ms)
+✔ Portuguese Join uses same safe platform/store logic (2.594083ms)
+✔ ko: current privacy and terms share the approved effective date (6.736083ms)
+✔ en: current privacy and terms share the approved effective date (5.283875ms)
+✔ es: current privacy and terms share the approved effective date (3.51025ms)
+✔ fr: current privacy and terms share the approved effective date (3.868708ms)
+✔ Spanish privacy variants and terms preserve all numbered sections (1.9565ms)
+✔ Spanish license package inventory matches English table rows (0.404167ms)
+✖ Spanish policy and terms are selected from browser locale; English fallback preserved (5.597708ms)
+✔ Spanish links do not alter join/download endpoints or application links (0.751333ms)
+ℹ tests 103
+ℹ suites 0
+ℹ pass 95
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 460.726709
+
+✖ failing tests:
+
+test at tests/download.test.cjs:28:69
+✖ deployed download: Android ja-JP (1.744542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '近日公開'
+  - 'Coming Soon'
+  
+      at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '近日公開',
+    expected: 'Coming Soon',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/download.test.cjs:28:69
+✖ deployed download: iPhone ja-JP (1.605833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '近日公開'
+  - 'Coming Soon'
+  
+      at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '近日公開',
+    expected: 'Coming Soon',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/download.test.cjs:28:69
+✖ deployed download: iPad ja-JP (1.429542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '近日公開'
+  - 'Coming Soon'
+  
+      at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '近日公開',
+    expected: 'Coming Soon',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/download.test.cjs:28:69
+✖ deployed download: iPad desktop UA ja-JP (3.417167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '近日公開'
+  - 'Coming Soon'
+  
+      at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '近日公開',
+    expected: 'Coming Soon',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/download.test.cjs:28:69
+✖ deployed download: desktop ja-JP (5.897042ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '近日公開'
+  - 'Coming Soon'
+  
+      at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '近日公開',
+    expected: 'Coming Soon',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/download.test.cjs:28:69
+✖ deployed download: unknown ja-JP (0.776958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '近日公開'
+  - 'Coming Soon'
+  
+      at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '近日公開',
+    expected: 'Coming Soon',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/french_legal.test.cjs:31:1
+✖ regional French resolves to French policy while unsupported locales still fall back (5.47875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '/privacy/ja/v1.4/'
+  - '/privacy/en/v1.4/'
+              ^
+  
+      at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/french_legal.test.cjs:38:166)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '/privacy/ja/v1.4/',
+    expected: '/privacy/en/v1.4/',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/spanish_legal.test.cjs:32:1
+✖ Spanish policy and terms are selected from browser locale; English fallback preserved (5.597708ms)
+  AssertionError [ERR_ASSERTION]: privacy ja-JP
+  + actual - expected
+  
+  + '/privacy/ja/v1.4/'
+  - '/privacy/en/v1.4/'
+              ^
+  
+      at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/spanish_legal.test.cjs:44:14)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '/privacy/ja/v1.4/',
+    expected: '/privacy/en/v1.4/',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

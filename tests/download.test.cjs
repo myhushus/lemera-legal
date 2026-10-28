@@ -25,12 +25,12 @@ for(const [name,userAgent,platform,maxTouchPoints,expected] of [
   ['iPad desktop UA','Macintosh','MacIntel',5,'ios'],
   ['desktop','Macintosh','MacIntel',0,'other'],
   ['unknown','','',0,'other'],
-]) for(const language of ['ko-KR','en-US','es-ES','es-MX','ja-JP']) test(`deployed download: ${name} ${language}`,()=>{
+]) for(const language of ['ko-KR','en-US','es-ES','es-MX','ja-JP','it-IT']) test(`deployed download: ${name} ${language}`,()=>{
   const nodes=mount({userAgent,platform,maxTouchPoints,language});
   assert.equal(nodes['play-store-link'].href,playUrl);
   assert.equal(nodes['app-store-link'].href,undefined);
   assert.equal(nodes['app-store-link'].attributes['aria-disabled'],'true');
-  const expectedCopy=language.startsWith('ko')?'출시 예정':language.startsWith('es')?'Próximamente':'Coming Soon';
+  const expectedCopy=language.startsWith('ko')?'출시 예정':language.startsWith('es')?'Próximamente':language.startsWith('ja')?'近日公開':'Coming Soon';
   assert.equal(nodes['app-badge'].textContent,expectedCopy);
   assert.equal(nodes['play-store-link'].dataset.recommended,expected==='android'?'true':undefined);
   assert.equal(nodes['app-store-link'].dataset.recommended,expected==='ios'?'true':undefined);
