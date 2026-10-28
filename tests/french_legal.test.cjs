@@ -35,7 +35,7 @@ test('regional French resolves to French policy while unsupported locales still 
    let got='';const location={search:'',replace:u=>got=u};
    vm.runInNewContext(script,{navigator:{language:locale},location,window:{location},URLSearchParams});assert.equal(got,expected);
   }
-  let got='';const location={search:'',replace:u=>got=u};vm.runInNewContext(script,{navigator:{language:'ja-JP'},location,window:{location},URLSearchParams});assert.equal(got,english);
+  let got='';const location={search:'',replace:u=>got=u};vm.runInNewContext(script,{navigator:{language:'it-IT'},location,window:{location},URLSearchParams});assert.equal(got,english);
  }
 });
 test('French navigation has no missing static targets',()=>{

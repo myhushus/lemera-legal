@@ -1,0 +1,9 @@
+from pathlib import Path
+s=Path('tests/german_legal.test.cjs').read_text().replace('German','Japanese').replace('/de/','/ja/').replace('/de${','/ja${').replace('lang="de"','lang="ja"').replace("['de','de-DE','de-AT','de-CH']","['ja','ja-JP']").replace("copy.de","copy.ja").replace(",'de'",",'ja'")
+s=s.replace('Android- und iPhone-Mitglieder können einer auf Android gehosteten Gruppe beitreten','Androidをホストとするグループには、AndroidとiPhoneのメンバーが参加できます').replace('Android-Mitglieder können einem iPhone-Host nicht beitreten','Androidのメンバーは参加できません').replace('früheren Android-Versionen mit Google ML Kit','Google ML Kitを含む以前のAndroidバージョン').replace('27. Oktober 2026','2026年10月27日').replace('Rechtsgrundlagen','法的根拠').replace('Free Host ist deaktiviert','Free Hostのメンバー数制限は無効').replace('Beendete Sitzungen werden nicht','終了したセッションを復元して').replace('Kinder unter 13 Jahren','13歳未満').replace('de-DE and de-AT','ja and ja-JP')
+Path('tests/japanese_legal.test.cjs').write_text(s)
+for f in ['tests/french_legal.test.cjs','tests/spanish_legal.test.cjs']:
+ p=Path(f);p.write_text(p.read_text().replace('ja-JP','it-IT'))
+p=Path('tests/download.test.cjs');s=p.read_text().replace("'es-MX','ja-JP'","'es-MX','ja-JP','it-IT'").replace("?'Próximamente':'Coming Soon'","?'Próximamente':language.startsWith('ja')?'近日公開':'Coming Soon'");p.write_text(s)
+s=Path('docs/german-preparation/check-ui.cjs').read_text().replace('german-preparation','japanese-preparation').replace("['de-DE','de-AT','de-CH']","['ja','ja-JP']").replace('de-DE','ja-JP').replace('/de/','/ja/').replace('/de-eea','/ja-eea').replace('/de-us','/ja-us').replace("['ko','en','es','fr','pt','de']","['ko','en','es','fr','pt','de','ja']").replace("locale:'de'","locale:'ja'").replace("lang:'de'","lang:'ja'").replace("c.lang!=='de'","c.lang!=='ja'").replace('8773','8774')
+Path('docs/japanese-preparation/check-ui.cjs').write_text(s)
