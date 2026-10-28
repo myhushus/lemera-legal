@@ -1,0 +1,3 @@
+Add German Privacy, Terms, existing regional supplements and licenses, with shared de support for de-DE/de-AT/de-CH across Home, Join and Download. Preserve policy versions/effective dates, all existing language policy bodies, historical notices and original license/MPL materials.
+
+Fix long-word and store-card wrapping on Download at large text sizes. Validation: 103 tests, 219 browser cases, 18 language-switch checks and 2,600 internal links passed. The license inventory matches all 235 component/version records. User approved production publication; app and store-console settings are unchanged.
