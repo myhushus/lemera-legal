@@ -1,0 +1,3 @@
+Add shared Indonesian support for id/id-ID across Privacy, Terms, existing regional supplements, licenses, Home, Join and Download. Preserve policy versions/effective dates, existing seven language policy bodies and original license/MPL materials.
+
+Validation: 119 tests, 147 browser cases, 24 language switches and 3,416 internal links passed. License inventory matches all 235 component/version records. User approved production publication; app and store settings remain unchanged.
