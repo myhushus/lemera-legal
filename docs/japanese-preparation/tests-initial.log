@@ -116,10 +116,10 @@ test at tests/download.test.cjs:28:69
 ✖ deployed download: Android ja-JP (1.744542ms)
   AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
   + actual - expected
-  
+
   + '近日公開'
   - 'Coming Soon'
-  
+
       at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
       at Test.runInAsyncScope (node:async_hooks:226:14)
       at Test.run (node:internal/test_runner/test:1382:25)
@@ -139,10 +139,10 @@ test at tests/download.test.cjs:28:69
 ✖ deployed download: iPhone ja-JP (1.605833ms)
   AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
   + actual - expected
-  
+
   + '近日公開'
   - 'Coming Soon'
-  
+
       at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
       at Test.runInAsyncScope (node:async_hooks:226:14)
       at Test.run (node:internal/test_runner/test:1382:25)
@@ -162,10 +162,10 @@ test at tests/download.test.cjs:28:69
 ✖ deployed download: iPad ja-JP (1.429542ms)
   AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
   + actual - expected
-  
+
   + '近日公開'
   - 'Coming Soon'
-  
+
       at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
       at Test.runInAsyncScope (node:async_hooks:226:14)
       at Test.run (node:internal/test_runner/test:1382:25)
@@ -185,10 +185,10 @@ test at tests/download.test.cjs:28:69
 ✖ deployed download: iPad desktop UA ja-JP (3.417167ms)
   AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
   + actual - expected
-  
+
   + '近日公開'
   - 'Coming Soon'
-  
+
       at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
       at Test.runInAsyncScope (node:async_hooks:226:14)
       at Test.run (node:internal/test_runner/test:1382:25)
@@ -208,10 +208,10 @@ test at tests/download.test.cjs:28:69
 ✖ deployed download: desktop ja-JP (5.897042ms)
   AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
   + actual - expected
-  
+
   + '近日公開'
   - 'Coming Soon'
-  
+
       at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
       at Test.runInAsyncScope (node:async_hooks:226:14)
       at Test.run (node:internal/test_runner/test:1382:25)
@@ -231,10 +231,10 @@ test at tests/download.test.cjs:28:69
 ✖ deployed download: unknown ja-JP (0.776958ms)
   AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
   + actual - expected
-  
+
   + '近日公開'
   - 'Coming Soon'
-  
+
       at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/download.test.cjs:34:10)
       at Test.runInAsyncScope (node:async_hooks:226:14)
       at Test.run (node:internal/test_runner/test:1382:25)
@@ -254,11 +254,11 @@ test at tests/french_legal.test.cjs:31:1
 ✖ regional French resolves to French policy while unsupported locales still fall back (5.47875ms)
   AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
   + actual - expected
-  
+
   + '/privacy/ja/v1.4/'
   - '/privacy/en/v1.4/'
               ^
-  
+
       at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/french_legal.test.cjs:38:166)
       at Test.runInAsyncScope (node:async_hooks:226:14)
       at Test.run (node:internal/test_runner/test:1382:25)
@@ -278,11 +278,11 @@ test at tests/spanish_legal.test.cjs:32:1
 ✖ Spanish policy and terms are selected from browser locale; English fallback preserved (5.597708ms)
   AssertionError [ERR_ASSERTION]: privacy ja-JP
   + actual - expected
-  
+
   + '/privacy/ja/v1.4/'
   - '/privacy/en/v1.4/'
               ^
-  
+
       at TestContext.<anonymous> (/Volumes/DevSSD/Dev/worktrees/lemera-legal-japanese-20261028/tests/spanish_legal.test.cjs:44:14)
       at Test.runInAsyncScope (node:async_hooks:226:14)
       at Test.run (node:internal/test_runner/test:1382:25)
