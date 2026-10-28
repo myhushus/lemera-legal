@@ -7,7 +7,7 @@
   const isAndroid = /Android/i.test(ua);
   const isIOS = /iPhone|iPad|iPod/i.test(ua) ||
     (nav.platform === "MacIntel" && nav.maxTouchPoints > 1);
-  const supported = ["en", "ko", "es", "fr"];
+  const supported = ["en", "ko", "es", "fr", "pt"];
   const copy = {
     ko: {
       brand:"공카 정보", privacy:"개인정보처리방침", terms:"이용약관", licenses:"라이선스",
@@ -33,6 +33,7 @@
       iosReadyNote: "You're on iPhone or iPad. Get Lemera from the App Store.",
       otherNote: "Choose the store for your device."
     },
+    pt: {"brand": "Informações do Lemera", "privacy": "Privacidade", "terms": "Termos", "licenses": "Licenças", "privacyFull": "Política de Privacidade", "termsFull": "Termos de Serviço", "licensesFull": "Licenças de código aberto", "title": "Instalar Lemera", "subtitle": "Escolha a loja para seu dispositivo.", "playCaption": "Para dispositivos Android", "appCaption": "Para iPhone e iPad", "open": "Abrir", "comingSoon": "Em breve", "androidNote": "Está usando Android. Instale o Lemera pelo Google Play.", "iosNote": "Está usando iPhone ou iPad. A versão da App Store estará disponível em breve.", "iosReadyNote": "Está usando iPhone ou iPad. Instale o Lemera pela App Store.", "otherNote": "Escolha a loja para seu dispositivo."},
     fr: {"brand": "Informations de Lemera", "privacy": "Confidentialité", "terms": "Conditions", "licenses": "Licences", "privacyFull": "Politique de confidentialité", "termsFull": "Conditions d’utilisation", "licensesFull": "Licences open source", "title": "Télécharger Lemera", "subtitle": "Choisissez la boutique de votre appareil.", "playCaption": "Pour les appareils Android", "appCaption": "Pour iPhone et iPad", "open": "Ouvrir", "comingSoon": "Bientôt disponible", "androidNote": "Vous utilisez Android. Téléchargez Lemera sur Google Play.", "iosNote": "Vous utilisez un iPhone ou un iPad. La version App Store sera bientôt disponible.", "iosReadyNote": "Vous utilisez un iPhone ou un iPad. Téléchargez Lemera sur l’App Store.", "otherNote": "Choisissez la boutique de votre appareil."},
     es: {
       brand:"Información de Lemera", privacy:"Privacidad", terms:"Términos", licenses:"Licencias",
@@ -88,9 +89,9 @@
     for (const [id,label] of Object.entries(labels)) document.getElementById(id).textContent = label;
     for (const [id,route] of Object.entries({'download-privacy':'privacy','download-terms':'terms','download-licenses':'licenses','download-foot-privacy':'privacy','download-foot-terms':'terms','download-foot-licenses':'licenses'})) {
       const french = {privacy:'/privacy/fr/v1.4/',terms:'/terms/fr/v1.2/',licenses:'/licenses/fr/'};
-      document.getElementById(id).href = selected === 'fr' ? french[route] : '/'+route+'/';
+      document.getElementById(id).href = selected === 'pt' ? {privacy:'/privacy/pt/v1.4/',terms:'/terms/pt/v1.2/',licenses:'/licenses/pt/'}[route] : selected === 'fr' ? french[route] : '/'+route+'/';
     }
-    document.querySelector?.('.store-list')?.setAttribute('aria-label', selected === 'fr' ? 'Options de téléchargement' : 'Download options');
+    document.querySelector?.('.store-list')?.setAttribute('aria-label', selected === 'pt' ? 'Opções de instalação' : selected === 'fr' ? 'Options de téléchargement' : 'Download options');
     title.textContent = text.title;
     subtitle.textContent = text.subtitle;
     playCaption.textContent = text.playCaption;
