@@ -1,0 +1,17 @@
+Lemera Portuguese Legal — 2026-10-28
+Branch: codex/lemera-legal-portuguese-20261028
+Base: production main f50fdadba59c57f2781fe00e6cf86c8d503343aa
+
+Scope: one shared pt translation for pt-BR and pt-PT, following user-approved Brazilian usage with broadly understandable wording. No legal or product-policy amendment. Privacy remains v1.4; Terms remains v1.2; original effective date remains 2026-10-27. Translation preparation date is 2026-10-28, not a new effective date. Existing EEA/UK/CH and California supplements translated without extending their applicability. Language choice does not itself establish a jurisdiction or add a Brazil-specific legal declaration.
+
+Added: Portuguese Privacy global + two supplements + routing page, Terms, license explanation + Android13 inventory. Existing Home, Privacy/Terms/Licenses selectors, Join and Download support pt. Existing current-language pages link to pt. Original language policy bodies unchanged. No app, store console, declarations, release flags, store URLs, QR/App Links/config changes.
+
+Preservation: all 16 existing current policy bodies byte-identical after removing navigation; original historical policies, license texts/data/MPL sources untouched. The Portuguese inventory has the same 235 component/version records and original license/source links. Original dirty Legal repo is untouched; edits are isolated in this worktree. PR #5 is already merged; this change is separate. No commit/push/merge/deployment performed.
+
+Validation: 95 Node tests passed, 2,194 static internal references resolved, git diff --check passed. Browser results and screenshots are in docs/portuguese-preparation/. Automated browser checks do not constitute actual mobile-device or screen-reader testing. Translation has been reviewed against the English source; no independent native-language/legal review is claimed.
+
+Production publication requires user approval for this new Portuguese change. Previous publication approval was fulfilled by PR #5. The reviewed local changes are ready for a separate commit/PR and deployment after approval. No Console prerequisite.
+
+Final browser verification: 147 cases passed, zero browser errors; pt-BR and pt-PT, widths 320/390/768/1280, light/dark, nine surfaces; plus 15 manual language-switch checks across Home/Join/Download and three large-text cases. Found and fixed long-word overflow on the Home page at large text using overflow-wrap:anywhere on its existing main element. No font shrinking or redesign. Privacy and Download mobile screenshots visually inspected. All 95 Node tests passed again after the fix.
+
+Publication approval received in this chat on 2026-10-28: user replied “진행하자” after being told commit/push/PR merge/publication remained. The earlier pending-approval statements above describe the preparation checkpoint and are now superseded. Proceed through CI and production verification without store-console work.
