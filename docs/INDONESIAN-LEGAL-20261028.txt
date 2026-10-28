@@ -1,0 +1,13 @@
+Lemera Indonesian Legal — prepared 2026-10-28 Asia/Seoul
+Branch: codex/lemera-legal-indonesian-20261028
+Base: 61d8d947fa247b6a8f891d8a689c8181bdb48af5
+
+Added shared Bahasa Indonesia id/id-ID: Privacy global, existing EEA/UK/CH and California supplements, Terms, license explanation and Android13 inventory, Home/Join/Download and navigation. Translation only. Privacy v1.4 and Terms v1.2 retain effective date October 27, 2026. No new Indonesia-specific legal obligations, legal bases or applicability assumed.
+
+Preserved all 28 current KO/EN/ES/FR/PT/DE/JA policy bodies after navigation removal, historical documents, original license/MPL texts/sources, Camera pages, App Links, store configs and app source. Inventory matches all 235 English component/version records and original license/source links. Original dirty Legal repository untouched; changes isolated here.
+
+Validation: 119 Node tests, 147 browser cases with zero errors/failures, 24 language-switch checks, 3,416 resolved internal references. id/id-ID, widths 320/390/768/1280, light/dark and large text. Mobile Privacy screenshot inspected. Actual mobile hardware/screen reader and independent native-language/legal review not claimed.
+
+No commit/push/merge/deploy performed. Publication requires the user's separate approval under the existing operating instruction. No Console work needed. Full evidence in docs/indonesian-preparation/.
+
+Publication approved on 2026-10-28: user answered “응” to the explicit commit/push/deploy question. This supersedes the preparation hold above. Proceed through CI, merge and live verification.
