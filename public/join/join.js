@@ -21,6 +21,7 @@
       note: 'After installing, scan the Host’s QR code again in the app. If Lemera is already installed, open its scanner.',
     },
     ja: {"brand": "Lemera", "title": "Lemeraのグループに参加", "privacy": "プライバシー", "terms": "規約", "android": "このグループに参加するには、Lemeraをインストールしてください。", "ios": "iPhone・iPad版Lemeraは公開準備中です。", "iosReady": "このグループに参加するには、Lemeraをインストールしてください。", "other": "グループにはiPhoneまたはAndroid端末で参加できます。Android版LemeraはGoogle Playからインストールできます。", "soon": "近日公開", "note": "インストール後、アプリ内でホストのQRコードをもう一度読み取ってください。インストール済みの場合は、Lemeraのスキャナーを開いてください。"},
+    hi: {"brand": "Lemera", "title": "Lemera ग्रुप से जुड़ें", "privacy": "निजता", "terms": "शर्तें", "android": "इस ग्रुप से जुड़ने के लिए Lemera इंस्टॉल करें।", "ios": "iPhone और iPad के लिए Lemera जल्द आ रहा है।", "iosReady": "इस ग्रुप से जुड़ने के लिए Lemera इंस्टॉल करें।", "other": "iPhone या Android से जुड़ें। Android के लिए Lemera, Google Play पर उपलब्ध है।", "soon": "जल्द आ रहा है", "note": "इंस्टॉल करने के बाद ऐप में होस्ट का QR दोबारा स्कैन करें। Lemera पहले से इंस्टॉल है तो उसका स्कैनर खोलें।"},
     id: {"brand": "Lemera", "title": "Gabung ke grup Lemera", "privacy": "Privasi", "terms": "Ketentuan", "android": "Instal Lemera untuk bergabung ke grup ini.", "ios": "Lemera untuk iPhone dan iPad akan segera hadir.", "iosReady": "Instal Lemera untuk bergabung ke grup ini.", "other": "Gabung melalui iPhone atau Android. Lemera untuk Android tersedia di Google Play.", "soon": "Segera hadir", "note": "Setelah menginstal, pindai kembali QR host di aplikasi. Jika Lemera sudah terinstal, buka pemindainya."},
     de: {"brand": "Lemera", "title": "Einer Lemera-Gruppe beitreten", "privacy": "Datenschutz", "terms": "Bedingungen", "android": "Installiere Lemera, um dieser Gruppe beizutreten.", "ios": "Lemera für iPhone und iPad ist bald verfügbar.", "iosReady": "Installiere Lemera, um dieser Gruppe beizutreten.", "other": "Tritt Gruppen auf einem iPhone oder Android-Gerät bei. Lemera für Android ist bei Google Play verfügbar.", "soon": "Bald verfügbar", "note": "Scanne nach der Installation den QR-Code des Hosts erneut in der App. Wenn Lemera bereits installiert ist, öffne den Scanner der App."},
     pt: {"brand": "Lemera", "title": "Entrar num grupo Lemera", "privacy": "Privacidade", "terms": "Termos", "android": "Instale o Lemera para entrar neste grupo.", "ios": "O Lemera para iPhone e iPad estará disponível em breve.", "iosReady": "Instale o Lemera para entrar neste grupo.", "other": "Entre em grupos num iPhone ou dispositivo Android. O Lemera para Android está disponível no Google Play.", "soon": "Em breve", "note": "Após a instalação, leia novamente o código QR do anfitrião no aplicativo. Se o Lemera já estiver instalado, abra seu leitor de QR."},
@@ -35,7 +36,7 @@
       note: 'Después de instalar la aplicación, vuelve a escanear el código QR del anfitrión desde Lemera. Si ya la tienes instalada, abre su escáner.',
     },
   };
-  const supported = ['en', 'ko', 'es', 'fr', 'pt', 'de', 'ja', 'id'];
+  const supported = ['en', 'ko', 'es', 'fr', 'pt', 'de', 'ja', 'id', 'hi'];
 
   function resolveLocale(language) {
     const code = String(language || 'en').toLowerCase().split(/[-_]/)[0];
@@ -65,8 +66,8 @@
     doc.documentElement.lang = selected;
     doc.title = text.title;
     for (const id of ['brand', 'privacy', 'terms']) doc.getElementById(id).textContent = text[id];
-    doc.getElementById('privacy').href = selected === 'ja' ? '/privacy/ja/v1.4/' : selected === 'id' ? '/privacy/id/v1.4/' : selected === 'de' ? '/privacy/de/v1.4/' : selected === 'pt' ? '/privacy/pt/v1.4/' : selected === 'fr' ? '/privacy/fr/v1.4/' : '/privacy/';
-    doc.getElementById('terms').href = selected === 'ja' ? '/terms/ja/v1.2/' : selected === 'id' ? '/terms/id/v1.2/' : selected === 'de' ? '/terms/de/v1.2/' : selected === 'pt' ? '/terms/pt/v1.2/' : selected === 'fr' ? '/terms/fr/v1.2/' : '/terms/';
+    doc.getElementById('privacy').href = selected === 'ja' ? '/privacy/ja/v1.4/' : selected === 'hi' ? '/privacy/hi/v1.4/' : selected === 'id' ? '/privacy/id/v1.4/' : selected === 'de' ? '/privacy/de/v1.4/' : selected === 'pt' ? '/privacy/pt/v1.4/' : selected === 'fr' ? '/privacy/fr/v1.4/' : '/privacy/';
+    doc.getElementById('terms').href = selected === 'ja' ? '/terms/ja/v1.2/' : selected === 'hi' ? '/terms/hi/v1.2/' : selected === 'id' ? '/terms/id/v1.2/' : selected === 'de' ? '/terms/de/v1.2/' : selected === 'pt' ? '/terms/pt/v1.2/' : selected === 'fr' ? '/terms/fr/v1.2/' : '/terms/';
     doc.getElementById('join-title').textContent = text.title;
     doc.getElementById('join-lead').textContent = text[device === 'ios' && appleUrl ? 'iosReady' : device];
     doc.getElementById('join-note').textContent = text.note;
