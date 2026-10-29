@@ -1,0 +1,22 @@
+Hindi Legal preparation — 2026-10-29 Asia/Seoul
+
+Base: origin/main 2f7882ce8f077dbca265d9563ef3496a86386996 (PR #10).
+Isolated branch: codex/lemera-legal-hindi-20261029.
+Original dirty Legal checkout and all other worktrees preserved.
+
+Added Hindi Privacy v1.4 general/EEA-UK-CH/California; Terms v1.2; license landing and Android 1.1.0(13) 235-component inventory. Extended Home/Join/Download and current policy/license language navigation. hi and hi-IN use shared Hindi. No geography inferred from language; no India-specific duties invented. Existing generic Legal URLs remain valid. Browser locale routing preserves existing behavior; app eligibility/first-launch language selector is a separate app task.
+
+Content is a translation of current policies, not a new substantive policy version. Effective date remains 27 October 2026. Preserves Android Host -> Android/iPhone Members, iPhone Host -> iPhone only; platform storage and photo deletion limitations; profile retention/backups; legacy ML Kit disclosure and ZXing version13 scope. No store console check/changes, new app build, app code changes, SDK/legal reinvestigation or production publication.
+
+Validation:
+- node --test tests/*.test.cjs: 124 passed, 0 failed.
+- Chrome hi/hi-IN: 147 cases, 0 failures/page errors. Width320/390/768/1280, light/dark, 9 surfaces, enlarged text Home/Join/Download. Language selectors checked across all 9 languages on 3 surfaces (27 switches).
+- 3,855 internal HTML references resolved; 0 broken.
+- Existing 32 policy bodies unchanged outside language nav.
+- License component/version records (235) and original license/MPL/source links identical to English. Historical policy/license/source files untouched.
+- git diff --check clean.
+- Mobile Hindi Privacy screenshot inspected: Devanagari renders, navigation wraps and main content remains within viewport. Evidence: docs/hindi-preparation/.
+
+Limitations: Chrome responsive emulation, not actual mobile device or screen reader. No independent native-speaker/legal review claimed. Actual publication HTTPS validation awaits publication approval.
+
+Status: User approved commit/push, PR merge and Pages publication on 2026-10-29. Prepared change is being submitted; final live deployment evidence will be recorded separately after successful publication. Previous PR #10 is already merged; this uses a new PR.
