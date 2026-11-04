@@ -1,0 +1,10 @@
+Tamil Legal publication preparation — 2026-11-04 Asia/Seoul
+User authorized proceeding to publication after readiness handoff.
+Scope: 7 Tamil pages and language navigation; 13 languages total.
+All 76 changed/new public files exactly match the previously validated manifest.
+Prior local Node result: 222 passed. 138 HTML / 5,746 internal links, no broken links.
+Existing 12-language policy bodies, Privacy v1.4 / Terms v1.2 and October 27 effective date preserved.
+Prior Chrome validation at 320/390/1280 reused because source hashes match.
+Native-speaker / actual mobile review not claimed. Latest binary license audit remains separate.
+App links may be switched only after production verification; no app build or release authorized.
+Original dirty checkout and unrelated untracked records retained.
