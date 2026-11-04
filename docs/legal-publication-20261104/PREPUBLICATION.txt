@@ -1,0 +1,20 @@
+Lemera Legal publication — 2026-11-04 Asia/Seoul
+
+User authorized production publication after final validation.
+Scope: localized service-name notes for nine existing languages plus Bengali, Marathi and Telugu Legal. Official service Lemera / Meroviq is unchanged. Names: 모카 / CamPool / Camún / Camune / Camum / Kamita / Wirka / わたカメ / सबकैम / সবক্যাম / सर्वकॅम / మనక్యామ్.
+
+Privacy v1.4 and Terms v1.2 retain their original October 27, 2026 effective date. This adds translations, service-name explanations and navigation; it does not enact new processing or contractual terms. Existing original-language policy content and historical URLs are preserved.
+
+Final local tests: 190 passed, zero failed/skipped. 131 HTML pages and 5,273 local link occurrences checked, zero broken links. Existing 36 policy documents match remote main except added name notes/navigation and inter-tag whitespace. Historical license/source/MPL/association/CNAME/CSS files are byte-identical. Exact source hashes and preservation counts are in adjacent JSON files.
+
+Latest browser validation reused: brand nine-locale checks plus bn/mr/te Home/Privacy/Terms/Licenses/Join/Download and language switches at 320/390/1280 widths. No change since those validated documents. Native-speaker review, physical-device and full large-font matrix are not certified; older EN/ES/FR/PT 320px/200% overflow remains a pre-existing limitation, not a new passing claim.
+
+The Android 1.1.0 (13) 235-entry license inventory remains specific to that audited release; no audit of current app development sources or a new release binary is claimed. Legacy ML Kit notices remain, so this publication does not depend on assuming all old app versions have disappeared.
+
+The original dirty Legal checkout and local preparation/audit snapshots are preserved. Publish only the reviewed public files, three localization test files and these publication records; do not include local before/ backup copies or obsolete drafts in the commit.
+
+PR #5 is already merged. Use a new PR against latest main. PR CI must succeed before merge; main public changes trigger Pages automatically. Do not dispatch a second deployment unnecessarily.
+
+After deployment: verify HTTPS content for all 12 languages, all regional variants, Terms/Licenses/name notes, asset links and unchanged historical URLs. Record deployed commit, PR and Pages result.
+
+App te/bn/mr English Legal fallback remains unchanged by this site-only publication. A later authorized app task may switch links after actual production HTTPS verification. No app build/version or Console operation is included.

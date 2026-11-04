@@ -1,0 +1,22 @@
+{
+  "remote_main": "6a782a72c5b68b89fa6f17ae384e3e72a71000ad",
+  "existing_remote_public_files_preserved": 169,
+  "original_policies_unchanged_except_name_note_navigation_and_intertag_whitespace": 36,
+  "protected_history_license_source_association_css_files_byte_identical": 57,
+  "all_locales": [
+    "ko",
+    "en",
+    "es",
+    "fr",
+    "pt",
+    "de",
+    "ja",
+    "id",
+    "hi",
+    "bn",
+    "mr",
+    "te"
+  ],
+  "deployment_authorization": "User approved final verification then production publication on 2026-11-04",
+  "app_link_changes": "Separate app work; English fallback retained"
+}
