@@ -21,6 +21,9 @@
       note: 'After installing, scan the Host’s QR code again in the app. If Lemera is already installed, open its scanner.',
     },
     ja: {"brand": "Lemera", "title": "Lemeraのグループに参加", "privacy": "プライバシー", "terms": "規約", "android": "このグループに参加するには、Lemeraをインストールしてください。", "ios": "iPhone・iPad版Lemeraは公開準備中です。", "iosReady": "このグループに参加するには、Lemeraをインストールしてください。", "other": "グループにはiPhoneまたはAndroid端末で参加できます。Android版LemeraはGoogle Playからインストールできます。", "soon": "近日公開", "note": "インストール後、アプリ内でホストのQRコードをもう一度読み取ってください。インストール済みの場合は、Lemeraのスキャナーを開いてください。"},
+    mr: {"brand": "सर्वकॅम", "title": "सर्वकॅम ग्रुपमध्ये सहभागी व्हा", "privacy": "गोपनीयता", "terms": "अटी", "android": "या ग्रुपमध्ये सहभागी होण्यासाठी सर्वकॅम इन्स्टॉल करा.", "ios": "iPhone आणि iPad साठी सर्वकॅम लवकरच उपलब्ध होईल.", "iosReady": "या ग्रुपमध्ये सहभागी होण्यासाठी सर्वकॅम इन्स्टॉल करा.", "other": "iPhone किंवा Android डिव्हाइसवरून ग्रुपमध्ये सहभागी व्हा. Android साठी सर्वकॅम Google Play वर उपलब्ध आहे.", "soon": "लवकरच येत आहे", "note": "इन्स्टॉल केल्यानंतर ॲपमधून होस्टचा QR कोड पुन्हा स्कॅन करा. सर्वकॅम आधीच इन्स्टॉल केले असल्यास त्याचा स्कॅनर उघडा."},
+    te: {"brand": "మనక్యామ్", "title": "మనక్యామ్ గ్రూప్‌లో చేరండి", "privacy": "గోప్యత", "terms": "నిబంధనలు", "android": "ఈ గ్రూప్‌లో చేరడానికి మనక్యామ్ ఇన్‌స్టాల్ చేయండి.", "ios": "iPhone, iPad కోసం మనక్యామ్ త్వరలో అందుబాటులోకి వస్తుంది.", "iosReady": "ఈ గ్రూప్‌లో చేరడానికి మనక్యామ్ ఇన్‌స్టాల్ చేయండి.", "other": "iPhone లేదా Android పరికరం నుంచి గ్రూప్‌లో చేరండి. Android కోసం మనక్యామ్ Google Playలో అందుబాటులో ఉంది.", "soon": "త్వరలో వస్తుంది", "note": "ఇన్‌స్టాల్ చేసిన తర్వాత యాప్‌లో హోస్ట్ QR కోడ్‌ను మళ్లీ స్కాన్ చేయండి. మనక్యామ్ ఇప్పటికే ఇన్‌స్టాల్ చేసి ఉంటే, దాని స్కానర్‌ను తెరవండి."},
+    bn: {"brand": "সবক্যাম", "title": "সবক্যাম গ্রুপে যোগ দিন", "privacy": "গোপনীয়তা", "terms": "শর্তাবলি", "android": "এই গ্রুপে যোগ দিতে সবক্যাম ইনস্টল করুন।", "ios": "iPhone ও iPad-এর জন্য সবক্যাম শীঘ্রই আসছে।", "iosReady": "এই গ্রুপে যোগ দিতে সবক্যাম ইনস্টল করুন।", "other": "iPhone বা Android ডিভাইস থেকে গ্রুপে যোগ দিন। Android-এর জন্য সবক্যাম Google Play-তে পাওয়া যায়।", "soon": "শীঘ্রই আসছে", "note": "ইনস্টল করার পরে অ্যাপ থেকে হোস্টের QR কোড আবার স্ক্যান করুন। সবক্যাম আগে থেকেই ইনস্টল থাকলে এর স্ক্যানার খুলুন।"},
     hi: {"brand": "Lemera", "title": "Lemera ग्रुप से जुड़ें", "privacy": "निजता", "terms": "शर्तें", "android": "इस ग्रुप से जुड़ने के लिए Lemera इंस्टॉल करें।", "ios": "iPhone और iPad के लिए Lemera जल्द आ रहा है।", "iosReady": "इस ग्रुप से जुड़ने के लिए Lemera इंस्टॉल करें।", "other": "iPhone या Android से जुड़ें। Android के लिए Lemera, Google Play पर उपलब्ध है।", "soon": "जल्द आ रहा है", "note": "इंस्टॉल करने के बाद ऐप में होस्ट का QR दोबारा स्कैन करें। Lemera पहले से इंस्टॉल है तो उसका स्कैनर खोलें।"},
     id: {"brand": "Lemera", "title": "Gabung ke grup Lemera", "privacy": "Privasi", "terms": "Ketentuan", "android": "Instal Lemera untuk bergabung ke grup ini.", "ios": "Lemera untuk iPhone dan iPad akan segera hadir.", "iosReady": "Instal Lemera untuk bergabung ke grup ini.", "other": "Gabung melalui iPhone atau Android. Lemera untuk Android tersedia di Google Play.", "soon": "Segera hadir", "note": "Setelah menginstal, pindai kembali QR host di aplikasi. Jika Lemera sudah terinstal, buka pemindainya."},
     de: {"brand": "Lemera", "title": "Einer Lemera-Gruppe beitreten", "privacy": "Datenschutz", "terms": "Bedingungen", "android": "Installiere Lemera, um dieser Gruppe beizutreten.", "ios": "Lemera für iPhone und iPad ist bald verfügbar.", "iosReady": "Installiere Lemera, um dieser Gruppe beizutreten.", "other": "Tritt Gruppen auf einem iPhone oder Android-Gerät bei. Lemera für Android ist bei Google Play verfügbar.", "soon": "Bald verfügbar", "note": "Scanne nach der Installation den QR-Code des Hosts erneut in der App. Wenn Lemera bereits installiert ist, öffne den Scanner der App."},
@@ -36,7 +39,7 @@
       note: 'Después de instalar la aplicación, vuelve a escanear el código QR del anfitrión desde Lemera. Si ya la tienes instalada, abre su escáner.',
     },
   };
-  const supported = ['en', 'ko', 'es', 'fr', 'pt', 'de', 'ja', 'id', 'hi'];
+  const supported = ['en', 'ko', 'es', 'fr', 'pt', 'de', 'ja', 'id', 'hi', 'bn', 'mr', 'te'];
 
   function resolveLocale(language) {
     const code = String(language || 'en').toLowerCase().split(/[-_]/)[0];
@@ -66,8 +69,8 @@
     doc.documentElement.lang = selected;
     doc.title = text.title;
     for (const id of ['brand', 'privacy', 'terms']) doc.getElementById(id).textContent = text[id];
-    doc.getElementById('privacy').href = selected === 'ja' ? '/privacy/ja/v1.4/' : selected === 'hi' ? '/privacy/hi/v1.4/' : selected === 'id' ? '/privacy/id/v1.4/' : selected === 'de' ? '/privacy/de/v1.4/' : selected === 'pt' ? '/privacy/pt/v1.4/' : selected === 'fr' ? '/privacy/fr/v1.4/' : '/privacy/';
-    doc.getElementById('terms').href = selected === 'ja' ? '/terms/ja/v1.2/' : selected === 'hi' ? '/terms/hi/v1.2/' : selected === 'id' ? '/terms/id/v1.2/' : selected === 'de' ? '/terms/de/v1.2/' : selected === 'pt' ? '/terms/pt/v1.2/' : selected === 'fr' ? '/terms/fr/v1.2/' : '/terms/';
+    doc.getElementById('privacy').href = selected === 'ja' ? '/privacy/ja/v1.4/' : selected === 'mr' ? '/privacy/mr/v1.4/' : selected === 'te' ? '/privacy/te/v1.4/' : selected === 'bn' ? '/privacy/bn/v1.4/' : selected === 'hi' ? '/privacy/hi/v1.4/' : selected === 'id' ? '/privacy/id/v1.4/' : selected === 'de' ? '/privacy/de/v1.4/' : selected === 'pt' ? '/privacy/pt/v1.4/' : selected === 'fr' ? '/privacy/fr/v1.4/' : '/privacy/';
+    doc.getElementById('terms').href = selected === 'ja' ? '/terms/ja/v1.2/' : selected === 'mr' ? '/terms/mr/v1.2/' : selected === 'te' ? '/terms/te/v1.2/' : selected === 'bn' ? '/terms/bn/v1.2/' : selected === 'hi' ? '/terms/hi/v1.2/' : selected === 'id' ? '/terms/id/v1.2/' : selected === 'de' ? '/terms/de/v1.2/' : selected === 'pt' ? '/terms/pt/v1.2/' : selected === 'fr' ? '/terms/fr/v1.2/' : '/terms/';
     doc.getElementById('join-title').textContent = text.title;
     doc.getElementById('join-lead').textContent = text[device === 'ios' && appleUrl ? 'iosReady' : device];
     doc.getElementById('join-note').textContent = text.note;
@@ -87,6 +90,8 @@
     }
     const language = doc.getElementById('language');
     language.value = selected;
+    language.setAttribute?.('aria-label', selected === 'mr' ? 'भाषा' : selected === 'te' ? 'భాష' : selected === 'bn' ? 'ভাষা' : 'Language / 언어 / Idioma / Langue');
+    doc.getElementById('brand').href = selected === 'mr' ? '/?lang=mr' : selected === 'te' ? '/?lang=te' : selected === 'bn' ? '/?lang=bn' : '/';
     language.onchange = () => mount(doc, nav, config, helpers, language.value);
     // No fragment access, persistence, analytics, automatic navigation or
     // deferred-install promise. Only the app decodes group credentials.
