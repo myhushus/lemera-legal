@@ -13,7 +13,7 @@ const android = config.playAppSigningSha256.length ? [{
     sha256_cert_fingerprints: config.playAppSigningSha256 },
 }] : [];
 const apple = { applinks: { apps: [], details: config.iosUniversalLinksEnabled ? [{
-  appID: config.iosAppId, paths: ['/join', '/join/*'],
+  appID: config.iosAppId, paths: ['/join', '/join/'],
 }] : [] } };
 for (const [name, value] of [['assetlinks.json', android], ['apple-app-site-association', apple]]) {
   fs.writeFileSync(path.join(root, 'public/.well-known', name), JSON.stringify(value, null, 2) + '\n');

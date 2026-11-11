@@ -43,10 +43,17 @@ provisioning profiles. These are public identifiers, not credentials.
 
 Run `node scripts/prepare-app-links.cjs` after changing association settings.
 Generated files are `public/.well-known/assetlinks.json` and
-`public/.well-known/apple-app-site-association`. The current AASA `details` is
-empty, so iPhone camera links stay on the web during review. After public iOS
-release, set `iosUniversalLinksEnabled: true` and regenerate it. The existing
-app entitlement and Flutter link entry already support `/join`.
+`public/.well-known/apple-app-site-association`. Universal Links are enabled for
+`R6FXDSF43S.com.meroviq.lemera` on exactly `/join` and `/join/`, matching the app's
+validated link entry. Other routes, including `/download` and Legal documents,
+stay on the web. QR payloads remain in the URL fragment and must not be sent to
+servers, store links, analytics, or diagnostic logs.
+
+Installed-app association is independent of public App Store availability.
+Keep the existing Coming Soon fallback until the store listing is confirmed.
+Do not add Debug or upload certificate fingerprints to the production Android
+association. A Debug install may use the OS supported-links user selection for
+local testing; this is not proof of Play App Signing verification.
 
 Review these files before deployment, then verify the public endpoints:
 
@@ -62,10 +69,10 @@ Review these files before deployment, then verify the public endpoints:
 4. Test iOS Universal Links after enabling and deploying AASA, including Apple
    CDN propagation, associated-domain capability and installed/absent app cases.
 
-Before this deployment, the live `/join` and both association URLs returned 404. The
-attached A31 has an **upload-key sideload** and domain state 1024; that does not
-prove Play App Signing verification. Deployment, app updates and live native
-camera-to-group verification remain required.
+Before enabling Universal Links in production, verify origin and Apple CDN
+responses. CDN and device association caches can delay activation. Existing
+app data must be preserved when refreshing the test installation. A browser
+fallback alone does not establish whether QR decoding or session join failed.
 
 Local checks: `node --test tests/*.test.cjs`. No commands here deploy the site.
 
