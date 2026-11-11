@@ -81,21 +81,36 @@ test('DAL uses user-confirmed PLAY app signing, never upload certificate',()=>{
   assert.deepEqual(dal[0].target.sha256_cert_fingerprints,[
     'A3:73:EC:05:BA:F6:77:C0:8D:AB:B6:F6:24:76:0A:4E:EC:15:BC:88:1C:7F:F7:2E:A2:3E:DF:C1:D5:3C:45:CB',
   ]);
+ });
+test('Universal Links associate the signed app with only the supported join routes',()=>{
   const aasa=JSON.parse(fs.readFileSync(path.join(__dirname,'../public/.well-known/apple-app-site-association'),'utf8'));
-  assert.deepEqual(aasa.applinks.details,[]); // iPhone must use web until public release.
+  assert.deepEqual(aasa,{applinks:{apps:[],details:[{
+    appID:'R6FXDSF43S.com.meroviq.lemera',paths:['/join','/join/'],
+  }]}});
+  assert.equal(require('../config/app-links.json').iosUniversalLinksEnabled,true);
+  // Association for installed apps is independent from App Store availability.
+  assert.equal(config.appStoreUrl,'');
 });
-test('future Universal Links generation uses existing real Team ID and only join paths',()=>{
+function generateAssociations(overrides={}) {
   const saved={};
   const script=fs.readFileSync(require.resolve('../scripts/prepare-app-links.cjs'),'utf8');
   const source=require('../config/app-links.json');
-  const context={__dirname:path.join(__dirname,'../scripts'),console,
+  vm.runInNewContext(script,{__dirname:path.join(__dirname,'../scripts'),console,
     require(name) {
-      if(name==='../config/app-links.json')return {...source,iosUniversalLinksEnabled:true};
-      if(name==='node:fs')return {writeFileSync(file,value){saved[path.basename(file)]=JSON.parse(value);}};
+      if(name==='../config/app-links.json')return {...source,...overrides};
+      if(name==='node:fs')return {writeFileSync(file,value){saved[path.basename(file)]=value;}};
       return require(name);
-    }};
-  vm.runInNewContext(script,context);
-  const details=saved['apple-app-site-association'].applinks.details[0];
-  assert.equal(details.appID,'R6FXDSF43S.com.meroviq.lemera');
-  assert.equal(JSON.stringify(details.paths),JSON.stringify(['/join','/join/*']));
+    }});
+  return saved;
+}
+test('association generation exactly reproduces the reviewed public files',()=>{
+  for(const [name,contents] of Object.entries(generateAssociations())) {
+    assert.equal(contents,fs.readFileSync(path.join(__dirname,'../public/.well-known',name),'utf8'));
+  }
+});
+test('Universal Links can be disabled without changing Android Play association',()=>{
+  const enabled=generateAssociations();
+  const disabled=generateAssociations({iosUniversalLinksEnabled:false});
+  assert.deepEqual(JSON.parse(disabled['apple-app-site-association']),{applinks:{apps:[],details:[]}});
+  assert.equal(disabled['assetlinks.json'],enabled['assetlinks.json']);
 });
