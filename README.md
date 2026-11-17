@@ -22,17 +22,17 @@ no deferred-install payload recovery.
 
 - Android: install Google Play button; an already verified installed app may
   receive the OS link directly. Link-opening preferences can still keep it on web.
-- iPhone/iPad: Coming Soon, with no App Store href before public release.
-- Desktop/unknown: supported-device guidance and manual Google Play choice.
+- iPhone/iPad: App Store install button for the verified public listing.
+  Installed apps may receive the OS link through Universal Links.
+- Desktop/unknown: supported-device guidance and manual store choice.
 - KO uses 공카; EN uses Lemera. Language can be switched without changing the URL.
 - `/download` remains the independent app-install QR destination.
 
 ### Single store availability setting
 
-Both `/join` and `/download` use `public/download/config.js`. When the App Store
-listing is publicly available and verified, set its `appStoreUrl` there to
-`https://apps.apple.com/app/id6815128720`. No app update is needed for web copy.
-Do not enable it while review is pending.
+Both `/join` and `/download` use `public/download/config.js`. The App Store
+listing was verified public on 2026-11-17; `appStoreUrl` is set to
+`https://apps.apple.com/app/id6815128720`. No app update is needed for this web setting.
 
 ### Association preparation
 
@@ -50,7 +50,7 @@ stay on the web. QR payloads remain in the URL fragment and must not be sent to
 servers, store links, analytics, or diagnostic logs.
 
 Installed-app association is independent of public App Store availability.
-Keep the existing Coming Soon fallback until the store listing is confirmed.
+The empty-setting Coming Soon fallback remains tested for unavailable listings.
 Do not add Debug or upload certificate fingerprints to the production Android
 association. A Debug install may use the OS supported-links user selection for
 local testing; this is not proof of Play App Signing verification.

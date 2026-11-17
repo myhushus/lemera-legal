@@ -9,6 +9,7 @@ const configContext = {window: {}};
 vm.runInNewContext(fs.readFileSync(require.resolve('../public/download/config.js'), 'utf8'), configContext);
 vm.runInNewContext(fs.readFileSync(require.resolve('../public/join/config.js'), 'utf8'), configContext);
 const config = configContext.window.LEMERA_JOIN_CONFIG;
+const unavailableConfig = {...config, appStoreUrl: ''};
 const playUrl = 'https://play.google.com/store/apps/details?id=com.meroviq.lemera';
 const appUrl = 'https://apps.apple.com/app/id6815128720';
 function document() {
@@ -25,8 +26,8 @@ function document() {
 for(const [name,userAgent,maxTouchPoints,platform] of [
   ['Android','Android',5,'android'],['iPhone','iPhone',5,'ios'],['iPad','iPad',5,'ios'],
   ['iPad desktop UA','Macintosh',5,'ios'],['desktop','Macintosh',0,'other'],['unknown','',0,'other'],
-]) for(const language of ['ko-KR','en-US','es-ES','es-MX','fr-FR']) test(`${name} ${language}: install fallback, local copy, manual choice`,()=>{
-  const doc = document(); mount(doc,{userAgent,maxTouchPoints,language},config,helpers);
+]) for(const language of ['ko-KR','en-US','es-ES','es-MX','fr-FR']) test(`${name} ${language}: unavailable fallback, local copy, manual choice`,()=>{
+  const doc = document(); mount(doc,{userAgent,maxTouchPoints,language},unavailableConfig,helpers);
   assert.equal(doc.nodes.play.href,playUrl);
   assert.equal(doc.nodes.apple.href,undefined);
   assert.equal(doc.nodes.apple.attrs['aria-disabled'],'true');
@@ -89,7 +90,7 @@ test('Universal Links associate the signed app with only the supported join rout
   }]}});
   assert.equal(require('../config/app-links.json').iosUniversalLinksEnabled,true);
   // Association for installed apps is independent from App Store availability.
-  assert.equal(config.appStoreUrl,'');
+  assert.equal(config.appStoreUrl,appUrl);
 });
 function generateAssociations(overrides={}) {
   const saved={};
@@ -114,3 +115,25 @@ test('Universal Links can be disabled without changing Android Play association'
   assert.deepEqual(JSON.parse(disabled['apple-app-site-association']),{applinks:{apps:[],details:[]}});
   assert.equal(disabled['assetlinks.json'],enabled['assetlinks.json']);
 });
+
+for (const language of ['ko','en','es','fr','pt','id','de','ja','hi','bn','mr','te','ta']) {
+  for (const [device,userAgent,maxTouchPoints] of [
+    ['iPhone','iPhone',5], ['iPad','iPad',5], ['iPad desktop','Macintosh',5],
+    ['Android','Android',5], ['desktop','Macintosh',0], ['unknown','',0],
+  ]) test(`published Join ${device} ${language}: stores and local ready copy`, () => {
+    const doc=document();
+    const nav={userAgent,maxTouchPoints,language:language+'-XX'};
+    mount(doc,nav,config,helpers);
+    assert.equal(doc.documentElement.lang,language);
+    assert.equal(doc.nodes.apple.href,appUrl);
+    assert.equal(doc.nodes.apple.attrs['aria-disabled'],undefined);
+    assert.equal(doc.nodes.play.href,playUrl);
+    assert.equal(doc.nodes.soon.textContent,'');
+    if(device.startsWith('iP')) assert.equal(doc.nodes['join-lead'].textContent,helpers.copy[language].iosReady);
+    assert.equal(doc.nodes['join-note'].textContent,helpers.copy[language].note);
+    doc.nodes.language.value=language==='en'?'ko':'en';
+    doc.nodes.language.onchange();
+    assert.equal(doc.nodes.apple.href,appUrl);
+    assert.equal(doc.nodes.soon.textContent,'');
+  });
+}
