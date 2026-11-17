@@ -48,7 +48,7 @@ test('one shared config value enables the published App Store link',()=>{
   assert.equal(nodes['app-store-link'].attributes['aria-disabled'],undefined);
   assert.equal(nodes['play-store-link'].href,playUrl);
 });
-test('deployed download has no fragment read, storage, analytics or redirect',()=>{
+test('Download copy renderer has no fragment read, storage, analytics or navigation',()=>{
   assert.doesNotMatch(script,/location\s*[.\[]|localStorage|sessionStorage|sendBeacon|fetch\s*\(|window\.open/);
 });
 

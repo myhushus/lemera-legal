@@ -54,7 +54,7 @@ test('one shared config activates App Store without an app update',()=>{
   assert.doesNotMatch(doc.nodes['join-lead'].textContent,/coming soon/);
   assert.equal(config,configContext.window.LEMERA_DOWNLOAD_CONFIG);
 });
-test('page never reads fragment, sends credentials, persists them or redirects',()=>{
+test('Join copy renderer never reads fragment, sends credentials, persists them or navigates',()=>{
   const doc=document(); const nav={userAgent:'Android',language:'ko'};
   const window={document:doc,navigator:nav,LEMERA_JOIN_CONFIG:config,LemeraStoreLinks:helpers};
   for(const key of ['location','localStorage','sessionStorage','fetch','XMLHttpRequest','indexedDB'])

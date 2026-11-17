@@ -15,8 +15,9 @@ Primary URLs:
 
 `public/join/` is the install fallback for the unchanged Host QR:
 `https://lemera.meroviq.com/join#<payload>`. It never reads the fragment,
-uses storage/analytics/network APIs, or forwards credentials to a store.
-The page uses `no-referrer` and a restrictive CSP. No automatic redirects.
+uses credential storage/analytics/network APIs, or forwards credentials to a store.
+Both pages use `no-referrer`; Join retains its restrictive CSP.
+Visible mobile web fallbacks attempt the official store once after load (1.2s).
 After installing, users scan the Host QR again **inside the app**; there is
 no deferred-install payload recovery.
 
@@ -33,6 +34,23 @@ no deferred-install payload recovery.
 Both `/join` and `/download` use `public/download/config.js`. The App Store
 listing was verified public on 2026-11-17; `appStoreUrl` is set to
 `https://apps.apple.com/app/id6815128720`. No app update is needed for this web setting.
+
+### Mobile automatic store fallback
+
+`public/download/store-navigation.js` is shared by Join and Download. OS App Links /
+Universal Links still handle installed-app entry before the web fallback. The web
+cannot detect installation: a user preference or cached association may open the
+website even when the app is installed; this fallback then offers the store.
+No web retry of the invitation, custom scheme, or deferred-install recovery is added.
+
+Only the exact configured public App Store / Google Play URL is allowed. iPhone,
+iPad (including desktop UA) and Android can navigate; desktop/unknown stays put.
+A visible page waits for load and 1.2s before attempting navigation. Hidden pages,
+prerendering, pagehide, bfcache return and pointer/keyboard interaction suppress it.
+The attempt is marked by a boolean in the current browser history entry before the
+timer starts, preventing back/reload loops. No invite URL or fragment is read or
+stored; no localStorage/sessionStorage is used. If history protection or navigation
+fails, the existing localized store buttons remain. No automatic retry on return.
 
 ### Association preparation
 
