@@ -8,7 +8,13 @@ for(const lang of ['ko','en','es']){
  test(`${lang}: minimal release retains structure, rights and platform direction`,()=>{
   const t=read(`terms/${lang}/v1.2/index.html`);
   const old=read(`terms/${lang}/${lang==='ko'?'v1.1':'v1.0'}/index.html`);
-  for(const n of [1,2,3,6,8,9,11,12,13,14,15])assert.equal(section(t,n),section(old,n));
+  for(const n of [1,2,3,6,8,9,11,12,13,15])assert.equal(section(t,n),section(old,n));
+  const governingLaw = {
+   ko: ['대한민국 법률', '강행규정', '소비자 권리', '관할법원은 관련 법령에 따라'],
+   en: ['Republic of Korea', 'mandatory', 'consumer', 'jurisdiction'],
+   es: ['República de Corea', 'normas imperativas', 'consumidor', 'tribunales'],
+  };
+  for (const phrase of governingLaw[lang]) assert.ok(section(t,14).includes(phrase), phrase);
   for(const suffix of ['','-eea-uk','-us-ca']){
    const p=read(`privacy/${lang}/v1.4/${lang}${suffix}.html`);
    assert.equal((p.match(/<h2>\d+\./g)||[]).length,15);
